@@ -1,9 +1,10 @@
+import { ReactNode } from "react";
 import type { Bank } from "@/lib/types";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { StatusBadge, StatusDot } from "./status-badge";
 import { ExternalLink, Building2 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { ReactNode } from "react";
 
 interface BankCardProps {
   bank: Bank;
@@ -13,14 +14,20 @@ export function BankCard({ bank }: BankCardProps) {
   return (
     <Card className="hover:border-primary/30 transition-colors">
       <CardHeader className="pb-3">
-        <div className="flex items-start justify-between gap-3">
+        <div className="flex items-start justify-between gap-3 overflow-hidden">
           <div className="flex items-center gap-3 min-w-0">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-secondary text-foreground font-semibold text-sm shrink-0">
-              {bank.name.substring(0, 2).toUpperCase()}
-            </div>
+            <Avatar className="size-10 rounded-lg">
+              <AvatarImage src={bank.logo} />
+              <AvatarFallback className="rounded-lg">
+                {bank.name.substring(0, 2).toUpperCase()}
+              </AvatarFallback>
+            </Avatar>
             <div className="min-w-0">
               <div className="flex items-center gap-2">
-                <h3 className="font-semibold text-foreground truncate">
+                <h3
+                  className="font-semibold text-foreground truncate"
+                  title={bank.name}
+                >
                   {bank.name}
                 </h3>
                 {bank.website && (

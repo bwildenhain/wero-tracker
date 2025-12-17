@@ -7,6 +7,9 @@ interface StatsOverviewProps {
 }
 
 export function StatsOverview({ data }: StatsOverviewProps) {
+  const supportedCountries = data.countries.filter((country) =>
+    country.banks.some((bank) => bank.overallStatus === "supported"),
+  ).length;
   const totalBanks = data.countries.reduce((acc, c) => acc + c.banks.length, 0);
   const supportedBanks = data.countries.reduce(
     (acc, c) =>
@@ -20,7 +23,7 @@ export function StatsOverview({ data }: StatsOverviewProps) {
   const stats = [
     {
       label: "Countries",
-      value: data.countries.length,
+      value: supportedCountries,
       subtext: `of ${data.countries.length} countries`,
       icon: Flag,
       color: "text-primary",
@@ -35,7 +38,7 @@ export function StatsOverview({ data }: StatsOverviewProps) {
     {
       label: "Supported",
       value: supportedBanks,
-      subtext: `${Math.round((supportedBanks / totalBanks) * 100)}% of tracked banks`,
+      subtext: `${totalBanks > 0 ? Math.round((supportedBanks / totalBanks) * 100) : 0}% of tracked banks`,
       icon: CircleCheck,
       color: "text-status-supported",
     },

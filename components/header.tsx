@@ -21,7 +21,7 @@ export function Header({ dataSource, lastUpdated }: HeaderProps) {
         <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
           <div className="flex flex-col md:flex-row items-center gap-3">
             <Image
-              src="/wero-logo.svg"
+              src="/logos/wero.svg"
               alt="Wero Logo"
               width={128}
               height={40}
