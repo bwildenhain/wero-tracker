@@ -1,19 +1,8 @@
-export type SupportStatus = "supported" | "announced" | "none";
+export type Status = "supported" | "announced" | "unsupported" | "unknown";
 
-export interface SourceLink {
+export interface Source {
   label: string;
   url: string;
-}
-
-export interface FeatureSupport {
-  status: SupportStatus;
-  sources?: SourceLink[];
-  notes?: string;
-}
-
-export interface AppAvailability {
-  weroApp: FeatureSupport;
-  bankingApp: FeatureSupport;
 }
 
 export interface Bank {
@@ -21,20 +10,23 @@ export interface Bank {
   name: string;
   logo?: string;
   website?: string;
-  overallStatus: SupportStatus;
-  statusSources?: SourceLink[];
+  status: Status;
+  sources?: Source[];
+  note?: string;
   features: {
-    p2p: FeatureSupport;
-    onlinePayments: FeatureSupport;
-    localPayments: FeatureSupport;
+    p2p: Status;
+    onlinePayments: Status;
+    localPayments: Status;
   };
-  appAvailability: AppAvailability;
-  lastUpdated: string;
+  appAvailability: {
+    weroApp: Status;
+    bankingApp: Status;
+  };
+  lastUpdated: string; // Generated field
 }
 
 export interface Country {
   code: string;
-  name: string;
   banks: Bank[];
 }
 

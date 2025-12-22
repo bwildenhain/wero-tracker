@@ -4,7 +4,8 @@ export function Legend() {
   const items = [
     { status: "supported" as const, label: "Supported" },
     { status: "announced" as const, label: "Announced" },
-    { status: "none" as const, label: "Not Available" },
+    { status: "unsupported" as const, label: "Unsupported" },
+    { status: "unknown" as const, label: "Unknown" },
   ];
 
   return (

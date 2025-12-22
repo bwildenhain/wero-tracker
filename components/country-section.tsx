@@ -24,10 +24,10 @@ export function CountrySection({
   const [isOpen, setIsOpen] = useState(defaultExpanded);
 
   const supportedCount = country.banks.filter(
-    (b) => b.overallStatus === "supported",
+    (b) => b.status === "supported",
   ).length;
   const announcedCount = country.banks.filter(
-    (b) => b.overallStatus === "announced",
+    (b) => b.status === "announced",
   ).length;
 
   return (
@@ -37,7 +37,11 @@ export function CountrySection({
           <div className="flex items-center gap-3">
             <CountryFlag countryCode={country.code} size="md" />
             <div className="text-start">
-              <h2 className="font-semibold text-foreground">{country.name}</h2>
+              <h2 className="font-semibold text-foreground">
+                {new Intl.DisplayNames(["en"], { type: "region" }).of(
+                  country.code,
+                )}
+              </h2>
               <p className="text-xs text-muted-foreground">
                 {country.banks.length} banks • {supportedCount} supported •{" "}
                 {announcedCount} announced

@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import type { Bank } from "@/lib/types";
+import type { Bank, Status } from "@/lib/types";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { StatusBadge, StatusDot } from "./status-badge";
@@ -46,11 +46,7 @@ export function BankCard({ bank }: BankCardProps) {
               </p>
             </div>
           </div>
-          <StatusBadge
-            status={bank.overallStatus}
-            sources={bank.statusSources}
-            showLabel
-          />
+          <StatusBadge status={bank.status} sources={bank.sources} showLabel />
         </div>
       </CardHeader>
       <CardContent className="space-y-4">
@@ -60,12 +56,9 @@ export function BankCard({ bank }: BankCardProps) {
             Payment Features
           </h4>
           <div className="grid grid-cols-3 gap-2">
-            <FeatureItem label="P2P" feature={bank.features.p2p} />
-            <FeatureItem
-              label="Online"
-              feature={bank.features.onlinePayments}
-            />
-            <FeatureItem label="Local" feature={bank.features.localPayments} />
+            <FeatureItem label="P2P" status={bank.features.p2p} />
+            <FeatureItem label="Online" status={bank.features.onlinePayments} />
+            <FeatureItem label="Local" status={bank.features.localPayments} />
           </div>
         </div>
 
@@ -78,12 +71,12 @@ export function BankCard({ bank }: BankCardProps) {
             <AppBadge
               icon={<div className="font-bold">W</div>}
               label="Wero App"
-              feature={bank.appAvailability.weroApp}
+              status={bank.appAvailability.weroApp}
             />
             <AppBadge
               icon={<Building2 size={16} />}
               label="Bank App"
-              feature={bank.appAvailability.bankingApp}
+              status={bank.appAvailability.bankingApp}
             />
           </div>
         </div>
@@ -92,22 +85,11 @@ export function BankCard({ bank }: BankCardProps) {
   );
 }
 
-function FeatureItem({
-  label,
-  feature,
-}: {
-  label: string;
-  feature: Bank["features"]["p2p"];
-}) {
+function FeatureItem({ label, status }: { label: string; status: Status }) {
   return (
     <div className="flex flex-col justify-between items-center gap-1.5 rounded-lg bg-secondary/50 p-2">
       <span className="text-xs text-muted-foreground">{label}</span>
-      <StatusBadge
-        status={feature.status}
-        sources={feature.sources}
-        notes={feature.notes}
-        size="sm"
-      />
+      <StatusBadge status={status} size="sm" />
     </div>
   );
 }
@@ -115,11 +97,11 @@ function FeatureItem({
 function AppBadge({
   icon,
   label,
-  feature,
+  status,
 }: {
   icon: ReactNode;
   label: string;
-  feature: Bank["appAvailability"]["weroApp"];
+  status: Status;
 }) {
   return (
     <div
@@ -129,7 +111,7 @@ function AppBadge({
     >
       {icon}
       <span className="text-xs">{label}</span>
-      <StatusDot status={feature.status} />
+      <StatusDot status={status} />
     </div>
   );
 }

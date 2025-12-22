@@ -1,7 +1,6 @@
 "use client";
 
-import type { SupportStatus } from "@/lib/types";
-import { Input } from "@/components/ui/input";
+import type { Status } from "@/lib/types";
 import { Button } from "@/components/ui/button";
 import { Search, Filter, CircleCheck, Clock, CircleX } from "lucide-react";
 import {
@@ -22,11 +21,11 @@ import { CountryFlag } from "./country-flag";
 interface FilterBarProps {
   searchQuery: string;
   onSearchChange: (query: string) => void;
-  selectedStatuses: SupportStatus[];
-  onStatusChange: (statuses: SupportStatus[]) => void;
+  selectedStatuses: Status[];
+  onStatusChange: (statuses: Status[]) => void;
   selectedCountries: string[];
   onCountryChange: (countries: string[]) => void;
-  availableCountries: { code: string; name: string }[];
+  availableCountries: string[];
 }
 
 export function FilterBar({
@@ -41,7 +40,7 @@ export function FilterBar({
   const statuses: {
     icon: React.ElementType;
     iconColor: string;
-    value: SupportStatus;
+    value: Status;
     label: string;
   }[] = [
     {
@@ -58,13 +57,19 @@ export function FilterBar({
     },
     {
       icon: CircleX,
-      iconColor: "text-status-none",
-      value: "none",
-      label: "Not Available",
+      iconColor: "text-status-unsupported",
+      value: "unsupported",
+      label: "Unsupported",
+    },
+    {
+      icon: Filter,
+      iconColor: "text-status-unknown",
+      value: "unknown",
+      label: "Unknown",
     },
   ];
 
-  const toggleStatus = (status: SupportStatus) => {
+  const toggleStatus = (status: Status) => {
     if (selectedStatuses.includes(status)) {
       onStatusChange(selectedStatuses.filter((s) => s !== status));
     } else {
@@ -123,12 +128,12 @@ export function FilterBar({
           <DropdownMenuSeparator />
           {availableCountries.map((country) => (
             <DropdownMenuCheckboxItem
-              key={country.code}
-              checked={selectedCountries.includes(country.code)}
-              onCheckedChange={() => toggleCountry(country.code)}
+              key={country}
+              checked={selectedCountries.includes(country)}
+              onCheckedChange={() => toggleCountry(country)}
             >
-              <CountryFlag countryCode={country.code} size="sm" />
-              {country.name}
+              <CountryFlag countryCode={country} size="sm" />
+              {new Intl.DisplayNames(["en"], { type: "region" }).of(country)}
             </DropdownMenuCheckboxItem>
           ))}
         </DropdownMenuContent>

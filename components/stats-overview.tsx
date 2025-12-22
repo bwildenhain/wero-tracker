@@ -8,16 +8,15 @@ interface StatsOverviewProps {
 
 export function StatsOverview({ data }: StatsOverviewProps) {
   const supportedCountries = data.countries.filter((country) =>
-    country.banks.some((bank) => bank.overallStatus === "supported"),
+    country.banks.some((bank) => bank.status === "supported"),
   ).length;
   const totalBanks = data.countries.reduce((acc, c) => acc + c.banks.length, 0);
   const supportedBanks = data.countries.reduce(
-    (acc, c) =>
-      acc + c.banks.filter((b) => b.overallStatus === "supported").length,
+    (acc, c) => acc + c.banks.filter((b) => b.status === "supported").length,
     0,
   );
   const announcedBanks = data.countries.flatMap((c) =>
-    c.banks.filter((b) => b.overallStatus === "announced"),
+    c.banks.filter((b) => b.status === "announced"),
   );
 
   const stats = [

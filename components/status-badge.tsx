@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import type { SupportStatus, SourceLink } from "@/lib/types";
+import type { Status, Source } from "@/lib/types";
 import {
   Check,
   ExternalLink,
@@ -16,15 +16,15 @@ import {
 } from "@/components/ui/tooltip";
 
 interface StatusBadgeProps {
-  status: SupportStatus;
-  sources?: SourceLink[];
+  status: Status;
+  sources?: Source[];
   notes?: string;
   showLabel?: boolean;
   size?: "sm" | "md" | "lg";
 }
 
 const statusConfig: Record<
-  SupportStatus,
+  Status,
   { label: string; icon: typeof Check; className: string }
 > = {
   supported: {
@@ -39,10 +39,17 @@ const statusConfig: Record<
     className:
       "bg-status-announced/20 text-status-announced border-status-announced/30",
   },
-  none: {
+  unsupported: {
     label: "Not Available",
     icon: CircleX,
-    className: "bg-status-none/20 text-status-none border-status-none/30",
+    className:
+      "bg-status-unsupported/20 text-status-unsupported border-status-unsupported/30",
+  },
+  unknown: {
+    label: "Unknown",
+    icon: Info,
+    className:
+      "bg-status-unknown/20 text-status-unknown border-status-unknown/30",
   },
 };
 
@@ -110,7 +117,7 @@ export function StatusBadge({
                     rel="noopener noreferrer"
                     className="flex items-center gap-1 text-xs hover:underline"
                   >
-                    <ExternalLink size={10} />
+                    <ExternalLink size={10} className="shrink-0" />
                     {source.label}
                   </a>
                 ))}
@@ -123,11 +130,12 @@ export function StatusBadge({
   );
 }
 
-export function StatusDot({ status }: { status: SupportStatus }) {
-  const colorClasses: Record<SupportStatus, string> = {
+export function StatusDot({ status }: { status: Status }) {
+  const colorClasses: Record<Status, string> = {
     supported: "bg-status-supported",
     announced: "bg-status-announced",
-    none: "bg-status-none",
+    unsupported: "bg-status-unsupported",
+    unknown: "bg-status-unknown",
   };
 
   return (

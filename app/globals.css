@@ -48,7 +48,8 @@
   /* Custom status colors */
   --color-status-supported: var(--status-supported);
   --color-status-announced: var(--status-announced);
-  --color-status-none: var(--status-none);
+  --color-status-unsupported: var(--status-unsupported);
+  --color-status-unknown: var(--status-unknown);
 }
 
 :root {
@@ -88,7 +89,8 @@
   /* Custom status colors */
   --status-supported: oklch(0.65 0.18 145);
   --status-announced: oklch(85.2% 0.199 91.936);
-  --status-none: oklch(57.7% 0.245 27.325);
+  --status-unsupported: oklch(57.7% 0.245 27.325);
+  --status-unknown: oklch(70.8% 0 0);
 }
 
 .dark {

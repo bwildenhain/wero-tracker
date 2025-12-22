@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import type { WeroData, SupportStatus } from "@/lib/types";
+import type { WeroData, Status } from "@/lib/types";
 import { Header } from "./header";
 import { StatsOverview } from "./stats-overview";
 import { FilterBar } from "./filter-bar";
@@ -15,7 +15,7 @@ interface WeroTrackerProps {
 
 export function WeroTracker({ data }: WeroTrackerProps) {
   const [searchQuery, setSearchQuery] = useState("");
-  const [selectedStatuses, setSelectedStatuses] = useState<SupportStatus[]>([]);
+  const [selectedStatuses, setSelectedStatuses] = useState<Status[]>([]);
   const [selectedCountries, setSelectedCountries] = useState<string[]>([]);
 
   const filteredData = useMemo(() => {
@@ -44,7 +44,7 @@ export function WeroTracker({ data }: WeroTrackerProps) {
             // Status filter
             if (
               selectedStatuses.length > 0 &&
-              !selectedStatuses.includes(bank.overallStatus)
+              !selectedStatuses.includes(bank.status)
             ) {
               return false;
             }
@@ -55,10 +55,7 @@ export function WeroTracker({ data }: WeroTrackerProps) {
     };
   }, [data, searchQuery, selectedStatuses, selectedCountries]);
 
-  const availableCountries = data.countries.map((c) => ({
-    code: c.code,
-    name: c.name,
-  }));
+  const availableCountries = data.countries.map((c) => c.code);
 
   return (
     <div className="min-h-screen">
