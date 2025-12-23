@@ -1,30 +1,24 @@
-# Wero market tracker
+# Wero Adoption Tracker
 
-_Automatically synced with your [v0.app](https://v0.app) deployments_
+This project aims to give an overview of the adoption of the European payment provider [Wero](https://wero-wallet.eu).
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/josua-franks-projects/v0-wero-market-tracker)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/lMtucbOLzeX)
+In comparison to other payment providers like PayPal, Wero needs to be implemented by each bank in order to work.  
+This can make it hard to know whether a bank already supports Wero, has announced its support, or hasn’t publicly stated any plans.
 
-## Overview
+## Different levels of support
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+### P2P, e-commerce, and point-of-sale payments
 
-## Deployment
+Wero consists of three main parts: peer-to-peer transfers, e-commerce payments, and point-of-sale payments.  
+Currently, point-of-sale payments are not implemented by Wero yet, and e-commerce payments have only just started with selected banks.
 
-Your project is live at:
+Each bank has to implement all three parts of Wero separately; therefore, they do not always support all features Wero has to offer.
 
-**[https://vercel.com/josua-franks-projects/v0-wero-market-tracker](https://vercel.com/josua-franks-projects/v0-wero-market-tracker)**
+### Wero app vs. banking app
 
-## Build your app
+Some banks decide to implement Wero using their own banking app. Others use the Wero app provided by Wero.
 
-Continue building your app on:
+## Contribution
 
-**[https://v0.app/chat/lMtucbOLzeX](https://v0.app/chat/lMtucbOLzeX)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+If you want to help with gathering, updating, and fixing the data of the Wero Tracker, please visit the [Wero Tracker Data Repository](https://github.com/sharknoon/wero-tracker-data).  
+Every contribution is highly welcome—thanks in advance 😀
