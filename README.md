@@ -1,3 +1,5 @@
+[![Deploy site](https://github.com/sharknoon/wero-tracker/actions/workflows/deploy.yml/badge.svg)](https://github.com/sharknoon/wero-tracker/actions/workflows/deploy.yml)
+
 # Wero Adoption Tracker
 
 This project aims to give an overview of the adoption of the European payment provider [Wero](https://wero-wallet.eu).
