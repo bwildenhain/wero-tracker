@@ -28,10 +28,10 @@ export function Header({ dataSource, lastUpdated }: HeaderProps) {
             />
             <div>
               <h1 className="text-xl font-bold text-foreground">
-                Unofficial Wero Tracker
+                Unofficial Wero Adoption Tracker
               </h1>
               <p className="text-xs text-muted-foreground">
-                Track Adoption Progress by Country and Bank
+                Follow Wero&apos;s rollout across Europe&apos;s banks.
               </p>
             </div>
           </div>

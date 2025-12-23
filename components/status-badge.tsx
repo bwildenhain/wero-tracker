@@ -7,6 +7,7 @@ import {
   CircleCheck,
   Clock,
   CircleX,
+  CircleQuestionMark,
 } from "lucide-react";
 import {
   Tooltip,
@@ -47,7 +48,7 @@ const statusConfig: Record<
   },
   unknown: {
     label: "Unknown",
-    icon: Info,
+    icon: CircleQuestionMark,
     className:
       "bg-status-unknown/20 text-status-unknown border-status-unknown/30",
   },
