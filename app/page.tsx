@@ -1,10 +1,12 @@
 import { WeroTracker } from "@/components/wero-tracker";
+import { weroDataSchema } from "@/lib/schema";
 
 async function getWeroData() {
-  const res = await fetch(
-    "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/main/data.json",
+  const response = await fetch(
+    "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/data.json",
   );
-  return res.json();
+  const data = await response.json();
+  return weroDataSchema.parse(data);
 }
 
 export default async function Page() {

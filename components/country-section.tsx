@@ -1,7 +1,6 @@
 "use client";
 
-import type { Country } from "@/lib/types";
-import { BankCard } from "./bank-card";
+import { BrandCard } from "./brand-card";
 import { ChevronDown } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
@@ -11,23 +10,28 @@ import {
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
+import { Brand, WeroData } from "@/lib/schema";
 
 interface CountrySectionProps {
-  country: Country;
+  countryCode: string;
+  brands: Brand[];
+  weroApp: WeroData["standaloneAppResource"];
   defaultExpanded?: boolean;
 }
 
 export function CountrySection({
-  country,
+  countryCode,
+  brands,
+  weroApp,
   defaultExpanded = true,
 }: CountrySectionProps) {
   const [isOpen, setIsOpen] = useState(defaultExpanded);
 
-  const supportedCount = country.banks.filter(
-    (b) => b.status === "supported",
+  const supportedCount = brands.filter(
+    (b) => b.weroSupport === "supported",
   ).length;
-  const announcedCount = country.banks.filter(
-    (b) => b.status === "announced",
+  const announcedCount = brands.filter(
+    (b) => b.weroSupport === "announced",
   ).length;
 
   return (
@@ -35,15 +39,15 @@ export function CountrySection({
       <Collapsible open={isOpen} onOpenChange={setIsOpen}>
         <CollapsibleTrigger className="flex w-full items-center justify-between rounded-lg bg-secondary/50 px-4 py-3 hover:bg-secondary transition-colors">
           <div className="flex items-center gap-3">
-            <CountryFlag countryCode={country.code} size="md" />
+            <CountryFlag countryCode={countryCode} size="md" />
             <div className="text-start">
               <h2 className="font-semibold text-foreground">
                 {new Intl.DisplayNames(["en"], { type: "region" }).of(
-                  country.code,
+                  countryCode,
                 )}
               </h2>
               <p className="text-xs text-muted-foreground">
-                {country.banks.length} banks • {supportedCount} supported •{" "}
+                {brands.length} banks • {supportedCount} supported •{" "}
                 {announcedCount} announced
               </p>
             </div>
@@ -58,8 +62,8 @@ export function CountrySection({
         </CollapsibleTrigger>
         <CollapsibleContent className="overflow-hidden data-[state=closed]:animate-collapsible-up data-[state=open]:animate-collapsible-down">
           <div className="grid gap-4 mt-4 md:grid-cols-2 lg:grid-cols-3">
-            {country.banks.map((bank) => (
-              <BankCard key={bank.id} bank={bank} />
+            {brands.map((brand) => (
+              <BrandCard key={brand.id} brand={brand} weroApp={weroApp} />
             ))}
           </div>
         </CollapsibleContent>

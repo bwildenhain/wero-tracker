@@ -1,13 +1,13 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import type { WeroData, Status } from "@/lib/types";
 import { Header } from "./header";
 import { StatsOverview } from "./stats-overview";
 import { FilterBar } from "./filter-bar";
 import { Legend } from "./legend";
 import { CountrySection } from "./country-section";
 import { Card, CardContent } from "@/components/ui/card";
+import { SupportStatus, WeroData } from "@/lib/schema";
 
 interface WeroTrackerProps {
   data: WeroData;
@@ -15,51 +15,74 @@ interface WeroTrackerProps {
 
 export function WeroTracker({ data }: WeroTrackerProps) {
   const [searchQuery, setSearchQuery] = useState("");
-  const [selectedStatuses, setSelectedStatuses] = useState<Status[]>([]);
+  const [selectedStatuses, setSelectedStatuses] = useState<SupportStatus[]>([]);
   const [selectedCountries, setSelectedCountries] = useState<string[]>([]);
+  const lastUpdated = new Date();
+  const sourceLink = "https://github.com/sharknoon/wero-tracker";
+  const dataSourceLink = "https://github.com/sharknoon/wero-tracker-data";
 
   const filteredData = useMemo(() => {
     return {
-      ...data,
-      countries: data.countries
-        .filter((country) => {
-          if (
-            selectedCountries.length > 0 &&
-            !selectedCountries.includes(country.code)
-          ) {
+      brands: data.brands.filter((brand) => {
+        // Search filter
+        if (searchQuery) {
+          const query = searchQuery.toLowerCase();
+          const brandNames = [
+            brand.name.toLowerCase(),
+            ...brand.aliases.map((a) => a.toLowerCase()),
+          ];
+          const matchesName = brandNames.some((name) => name.includes(query));
+          if (!matchesName) {
             return false;
           }
-          return true;
-        })
-        .map((country) => ({
-          ...country,
-          banks: country.banks.filter((bank) => {
-            // Search filter
-            if (searchQuery) {
-              const query = searchQuery.toLowerCase();
-              if (!bank.name.toLowerCase().includes(query)) {
-                return false;
-              }
-            }
-            // Status filter
-            if (
-              selectedStatuses.length > 0 &&
-              !selectedStatuses.includes(bank.status)
-            ) {
-              return false;
-            }
-            return true;
-          }),
-        }))
-        .filter((country) => country.banks.length > 0),
+        }
+        // Status filter
+        if (
+          selectedStatuses.length > 0 &&
+          !selectedStatuses.includes(brand.weroSupport)
+        ) {
+          return false;
+        }
+        // Country filter
+        if (selectedCountries.length > 0) {
+          const hasCountry = brand.countries.some((country) =>
+            selectedCountries.includes(country),
+          );
+          if (!hasCountry) {
+            return false;
+          }
+        }
+        return true;
+      }),
+      standaloneAppResource: data.standaloneAppResource,
     };
   }, [data, searchQuery, selectedStatuses, selectedCountries]);
 
-  const availableCountries = data.countries.map((c) => c.code);
+  const availableCountries = Array.from(
+    data.brands.reduce((set, brand) => {
+      brand.countries.forEach((country) => set.add(country));
+      return set;
+    }, new Set<string>()),
+  ).sort();
+
+  const filteredCountries = useMemo(() => {
+    const countryMap = new Map<string, typeof data.brands>();
+
+    filteredData.brands.forEach((brand) => {
+      brand.countries.forEach((countryCode) => {
+        if (!countryMap.has(countryCode)) {
+          countryMap.set(countryCode, []);
+        }
+        countryMap.get(countryCode)!.push(brand);
+      });
+    });
+
+    return countryMap;
+  }, [data, filteredData.brands]);
 
   return (
     <div className="min-h-screen">
-      <Header dataSource={data.dataSource} lastUpdated={data.lastUpdated} />
+      <Header sourceLink={sourceLink} lastUpdated={lastUpdated} />
 
       <main className="container mx-auto px-4 py-8 space-y-8">
         <StatsOverview data={data} />
@@ -78,7 +101,7 @@ export function WeroTracker({ data }: WeroTrackerProps) {
         </div>
 
         <div className="space-y-6">
-          {filteredData.countries.length === 0 ? (
+          {filteredData.brands.length === 0 ? (
             <Card>
               <CardContent className="p-4">
                 <p className="text-center text-muted-foreground">
@@ -87,11 +110,12 @@ export function WeroTracker({ data }: WeroTrackerProps) {
               </CardContent>
             </Card>
           ) : (
-            filteredData.countries.map((country, index) => (
+            [...filteredCountries].map(([code, brands]) => (
               <CountrySection
-                key={country.code}
-                country={country}
-                defaultExpanded={index < 2}
+                key={code}
+                countryCode={code}
+                brands={brands}
+                weroApp={data.standaloneAppResource}
               />
             ))
           )}
@@ -116,7 +140,7 @@ export function WeroTracker({ data }: WeroTrackerProps) {
               </a>
               <span>•</span>
               <a
-                href={data.dataSource}
+                href={dataSourceLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors"

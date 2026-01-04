@@ -1,5 +1,4 @@
 import { cn } from "@/lib/utils";
-import type { Status, Source } from "@/lib/types";
 import {
   Check,
   ExternalLink,
@@ -15,9 +14,10 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { Source, SupportStatus } from "@/lib/schema";
 
 interface StatusBadgeProps {
-  status: Status;
+  status: SupportStatus;
   sources?: Source[];
   notes?: string;
   showLabel?: boolean;
@@ -25,7 +25,7 @@ interface StatusBadgeProps {
 }
 
 const statusConfig: Record<
-  Status,
+  SupportStatus,
   { label: string; icon: typeof Check; className: string }
 > = {
   supported: {
@@ -131,8 +131,8 @@ export function StatusBadge({
   );
 }
 
-export function StatusDot({ status }: { status: Status }) {
-  const colorClasses: Record<Status, string> = {
+export function StatusDot({ status }: { status: SupportStatus }) {
+  const colorClasses: Record<SupportStatus, string> = {
     supported: "bg-status-supported",
     announced: "bg-status-announced",
     unsupported: "bg-status-unsupported",

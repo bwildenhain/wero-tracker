@@ -10,11 +10,11 @@ import {
 import Image from "next/image";
 
 export interface HeaderProps {
-  dataSource: string;
-  lastUpdated: string;
+  sourceLink: string;
+  lastUpdated: Date;
 }
 
-export function Header({ dataSource, lastUpdated }: HeaderProps) {
+export function Header({ sourceLink, lastUpdated }: HeaderProps) {
   return (
     <header className="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50">
       <div className="container mx-auto p-4">
@@ -42,19 +42,19 @@ export function Header({ dataSource, lastUpdated }: HeaderProps) {
                 <TooltipTrigger asChild>
                   <div className="flex items-center gap-2 rounded-lg bg-muted px-2.5 py-1.5 text-xs text-muted-foreground">
                     <Info size={14} />
-                    Last updated: {new Date(lastUpdated).toLocaleDateString()}
+                    Last updated: {lastUpdated.toLocaleDateString()}
                   </div>
                 </TooltipTrigger>
                 <TooltipContent>
-                  <p>Data is updated via community contributions</p>
+                  <p>Data is updated automatically every 24 hours.</p>
                 </TooltipContent>
               </Tooltip>
             </TooltipProvider>
 
             <Button variant="outline" size="sm" className="gap-2" asChild>
-              <a href={dataSource} target="_blank" rel="noopener noreferrer">
+              <a href={sourceLink} target="_blank" rel="noopener noreferrer">
                 <SiGithub size={16} />
-                <span className="hidden sm:inline">Contribute</span>
+                <span className="hidden sm:inline">GitHub</span>
                 <ExternalLink size={12} />
               </a>
             </Button>

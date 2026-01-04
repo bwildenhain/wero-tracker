@@ -1,8 +1,14 @@
 "use client";
 
-import type { Status } from "@/lib/types";
 import { Button } from "@/components/ui/button";
-import { Search, Filter, CircleCheck, Clock, CircleX } from "lucide-react";
+import {
+  Search,
+  Filter,
+  CircleCheck,
+  Clock,
+  CircleX,
+  CircleQuestionMark,
+} from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -17,12 +23,13 @@ import {
   InputGroupInput,
 } from "@/components/ui/input-group";
 import { CountryFlag } from "./country-flag";
+import { SupportStatus } from "@/lib/schema";
 
 interface FilterBarProps {
   searchQuery: string;
   onSearchChange: (query: string) => void;
-  selectedStatuses: Status[];
-  onStatusChange: (statuses: Status[]) => void;
+  selectedStatuses: SupportStatus[];
+  onStatusChange: (statuses: SupportStatus[]) => void;
   selectedCountries: string[];
   onCountryChange: (countries: string[]) => void;
   availableCountries: string[];
@@ -40,7 +47,7 @@ export function FilterBar({
   const statuses: {
     icon: React.ElementType;
     iconColor: string;
-    value: Status;
+    value: SupportStatus;
     label: string;
   }[] = [
     {
@@ -62,14 +69,14 @@ export function FilterBar({
       label: "Unsupported",
     },
     {
-      icon: Filter,
+      icon: CircleQuestionMark,
       iconColor: "text-status-unknown",
       value: "unknown",
       label: "Unknown",
     },
   ];
 
-  const toggleStatus = (status: Status) => {
+  const toggleSupportStatus = (status: SupportStatus) => {
     if (selectedStatuses.includes(status)) {
       onStatusChange(selectedStatuses.filter((s) => s !== status));
     } else {
@@ -117,7 +124,7 @@ export function FilterBar({
             <DropdownMenuCheckboxItem
               key={status.value}
               checked={selectedStatuses.includes(status.value)}
-              onCheckedChange={() => toggleStatus(status.value)}
+              onCheckedChange={() => toggleSupportStatus(status.value)}
             >
               <status.icon className={status.iconColor} size={16} />
               {status.label}
