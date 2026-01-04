@@ -8,6 +8,7 @@ import {
   Clock,
   CircleX,
   CircleQuestionMark,
+  X,
 } from "lucide-react";
 import {
   DropdownMenu,
@@ -20,6 +21,7 @@ import {
 import {
   InputGroup,
   InputGroupAddon,
+  InputGroupButton,
   InputGroupInput,
 } from "@/components/ui/input-group";
 import { CountryFlag } from "./country-flag";
@@ -103,6 +105,18 @@ export function FilterBar({
         <InputGroupAddon>
           <Search />
         </InputGroupAddon>
+        {searchQuery && (
+          <InputGroupAddon align="inline-end">
+            <InputGroupButton
+              aria-label="Clear"
+              title="Clear"
+              size="icon-xs"
+              onClick={() => onSearchChange("")}
+            >
+              <X />
+            </InputGroupButton>
+          </InputGroupAddon>
+        )}
       </InputGroup>
 
       <DropdownMenu>
