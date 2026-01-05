@@ -4,7 +4,7 @@
 
 Track the adoption of the European payment provider [Wero](https://wero-wallet.eu) across banks.
 
-<img width="1285" height="798" alt="grafik" src="https://github.com/user-attachments/assets/b751eb38-53c4-4443-a9d4-e5a451afa04d" />
+<img width="1285" height="874" alt="grafik" src="https://github.com/user-attachments/assets/c4ccece5-b6d1-46bb-8afb-38a1c1c0c324" />
 
 In comparison to other payment providers like PayPal, Wero needs to be implemented by each bank in order to work.  
 This can make it hard to know whether a bank already supports Wero, has announced its support, or hasn’t publicly stated any plans.
