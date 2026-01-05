@@ -18,8 +18,8 @@ export function WeroTracker({ data }: WeroTrackerProps) {
   const [selectedStatuses, setSelectedStatuses] = useState<SupportStatus[]>([]);
   const [selectedCountries, setSelectedCountries] = useState<string[]>([]);
   const lastUpdated = new Date();
-  const sourceLink = "https://github.com/sharknoon/wero-tracker";
-  const dataSourceLink = "https://github.com/sharknoon/wero-tracker-data";
+  const sourceRepositoryLink = "https://github.com/sharknoon/wero-tracker";
+  const dataRepositoryLink = "https://github.com/sharknoon/wero-tracker-data";
 
   const filteredData = useMemo(() => {
     return {
@@ -82,7 +82,11 @@ export function WeroTracker({ data }: WeroTrackerProps) {
 
   return (
     <div className="min-h-screen">
-      <Header sourceLink={sourceLink} lastUpdated={lastUpdated} />
+      <Header
+        sourceRepositoryLink={sourceRepositoryLink}
+        dataRepositoryLink={dataRepositoryLink}
+        lastUpdated={lastUpdated}
+      />
 
       <main className="container mx-auto px-4 py-8 space-y-8">
         <StatsOverview data={data} />
@@ -140,7 +144,16 @@ export function WeroTracker({ data }: WeroTrackerProps) {
               </a>
               <span>•</span>
               <a
-                href={dataSourceLink}
+                href={sourceRepositoryLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-primary transition-colors"
+              >
+                Source Repository
+              </a>
+              <span>•</span>
+              <a
+                href={dataRepositoryLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors"
