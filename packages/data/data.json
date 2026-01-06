@@ -2732,6 +2732,46 @@
       ]
     },
     {
+      "id": "1a83f065-0c84-4a4b-b82e-38d5ec47a157",
+      "name": "Raiffeisen",
+      "aliases": [],
+      "weroSupport": "announced",
+      "countries": [
+        "AT"
+      ],
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/b323122d-9133-47c1-99a3-79653e1188c1.png",
+      "banks": [
+        {
+          "id": "a4e60a2b-9e62-4d97-b2b6-448c5c733fba",
+          "name": "Raiffeisen",
+          "website": "https://www.raiffeisen.at/",
+          "bankContext": "RZBAATWWXXX",
+          "appIds": [
+            "51eaf57b-955f-4520-93b8-d5e31a6cce42"
+          ],
+          "aliases": [],
+          "countries": [
+            "AT"
+          ],
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/b323122d-9133-47c1-99a3-79653e1188c1.png",
+          "standaloneAppSupport": "unknown",
+          "P2PPaymentsSupport": "announced",
+          "eCommercePaymentsSupport": "announced",
+          "POSPaymentsSupport": "unknown"
+        }
+      ],
+      "apps": [
+        {
+          "id": "51eaf57b-955f-4520-93b8-d5e31a6cce42",
+          "name": "Mein ELBA-App",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/3f8821a6-03c1-4b71-adfb-c0119eb45e67.png",
+          "universalLink": "https://www.raiffeisen.at/de/online-banking/apps/mein-elba-app.html",
+          "supportsDesktop": true,
+          "weroSupport": "unknown"
+        }
+      ]
+    },
+    {
       "id": "fde60f86-3032-4db4-8b88-584270e87cd8",
       "name": "Revolut",
       "aliases": [],
