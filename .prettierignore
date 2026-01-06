@@ -1,0 +1,3 @@
+# Nested prettierignore files are not yet supported
+packages/data/data.json
+packages/website/components/ui
