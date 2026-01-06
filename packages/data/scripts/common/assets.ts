@@ -23,5 +23,5 @@ export async function saveAsset(
     "png";
   const assetPath = path.join(assetDir, `${fn}.${ext}`);
   await fs.writeFile(assetPath, buffer);
-  return `https://raw.githubusercontent.com/${process.env.GITHUB_ORG}/${process.env.GITHUB_REPO}/${process.env.GITHUB_REF}/${process.env.ASSET_PATH}/${fn}.${ext}`;
+  return `https://raw.githubusercontent.com/${process.env.DATA_GITHUB_ORG}/${process.env.DATA_GITHUB_REPO}/${process.env.DATA_GITHUB_REF}/${process.env.DATA_ASSET_PATH}/${fn}.${ext}`;
 }

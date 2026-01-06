@@ -30,13 +30,13 @@ export function WeroTracker({ data }: WeroTrackerProps) {
   // This site will be prerendered, so we can use a fixed date for "last updated"
   const lastUpdated = new Date();
 
-  const sourceRepository = process.env.NEXT_PUBLIC_WT_SOURCE_REPOSITORY ?? "#";
-  const dataRepository = process.env.NEXT_PUBLIC_WT_DATA_REPOSITORY ?? "#";
+  const sourceRepository =
+    process.env.NEXT_PUBLIC_WEBSITE_SOURCE_REPOSITORY ?? "#";
   const contributionGuidelines =
-    process.env.NEXT_PUBLIC_WT_CONTRIBUTION_GUIDELINES ?? "#";
-  const newBankLink = process.env.NEXT_PUBLIC_WT_NEW_BANK_LINK ?? "#";
+    process.env.NEXT_PUBLIC_WEBSITE_CONTRIBUTION_GUIDELINES ?? "#";
+  const newBankLink = process.env.NEXT_PUBLIC_WEBSITE_NEW_BANK_LINK ?? "#";
   const officialWeroWebsite =
-    process.env.NEXT_PUBLIC_WT_OFFICIAL_WERO_WEBSITE ?? "#";
+    process.env.NEXT_PUBLIC_WEBSITE_OFFICIAL_WERO_WEBSITE ?? "#";
 
   const filteredData = useMemo(() => {
     return {
@@ -218,16 +218,7 @@ export function WeroTracker({ data }: WeroTrackerProps) {
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors"
               >
-                Source Repository
-              </a>
-              <span>•</span>
-              <a
-                href={dataRepository}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary transition-colors"
-              >
-                Data Repository
+                GitHub
               </a>
             </div>
           </div>

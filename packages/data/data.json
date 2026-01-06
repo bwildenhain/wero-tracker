@@ -50,7 +50,7 @@
       "countries": [
         "DE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/8bc28585-bed7-4d69-926f-02ce7aaf726d-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/8bc28585-bed7-4d69-926f-02ce7aaf726d-xs.png",
       "banks": [
         {
           "id": "47024f8c-ec0f-4002-9460-d58c8c81f914",
@@ -77,7 +77,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/8bc28585-bed7-4d69-926f-02ce7aaf726d-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/8bc28585-bed7-4d69-926f-02ce7aaf726d-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -88,7 +88,7 @@
         {
           "id": "6006ffe1-d2bc-415b-9be5-041150bb30f5",
           "name": "VR Banking App",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/8853208d-5a9b-46c7-b9b8-00403ccca004-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/8853208d-5a9b-46c7-b9b8-00403ccca004-xs.png",
           "universalLink": "https://vr.banking-app-links.de/dynamicKey/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -143,7 +143,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/5dd0f543-45c0-5173-8b24-d565d2016aab-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/5dd0f543-45c0-5173-8b24-d565d2016aab-xs.png",
       "banks": [
         {
           "id": "d6f255a5-533d-4f91-bb01-b3143bdfa08a",
@@ -163,7 +163,7 @@
         {
           "id": "6700389b-5da0-46d7-99ae-f238e562dd99",
           "name": "Banque BCP",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/5dd0f543-45c0-5173-8b24-d565d2016aab-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/5dd0f543-45c0-5173-8b24-d565d2016aab-xs.png",
           "universalLink": "https://www.banquebcp.fr/gerer-vos-comptes-au-quotidien/envoyer-de-largent-avec-la-solution-wero/",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -178,7 +178,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/798698c4-65de-5cfa-babc-bfc32fc0fb71-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/798698c4-65de-5cfa-babc-bfc32fc0fb71-xs.png",
       "banks": [
         {
           "id": "be974996-ae7d-4fb1-808c-12fca75f9383",
@@ -198,7 +198,7 @@
         {
           "id": "4f901a97-2c02-46f1-9f58-2da1608a2f1e",
           "name": "Banque de Savoie",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/798698c4-65de-5cfa-babc-bfc32fc0fb71-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/798698c4-65de-5cfa-babc-bfc32fc0fb71-xs.png",
           "universalLink": "https://www.banque-de-savoie.fr/banque-a-distance/envoyer-argent-via-wero/",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -213,7 +213,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/97ce4ab8-a16b-5010-9e18-bdf391a9bab1-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/97ce4ab8-a16b-5010-9e18-bdf391a9bab1-xs.png",
       "banks": [
         {
           "id": "1bd24fb0-b08d-457e-9613-72967596032b",
@@ -233,7 +233,7 @@
         {
           "id": "f432fb91-deb2-4d2f-9a72-6e39bf969ae1",
           "name": "Banque Dupuy, de Parseval",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/97ce4ab8-a16b-5010-9e18-bdf391a9bab1-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/97ce4ab8-a16b-5010-9e18-bdf391a9bab1-xs.png",
           "universalLink": "https://www.banquepopulaire.fr/bdp/banque-a-distance/envoyer-argent-via-wero/",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -248,7 +248,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/0bffeed8-1097-5050-a74d-58ca7dc0de82-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/0bffeed8-1097-5050-a74d-58ca7dc0de82-xs.png",
       "banks": [
         {
           "id": "5d0a619a-4c1d-42fb-ad5e-580c7f965e07",
@@ -268,7 +268,7 @@
         {
           "id": "5e073706-7411-4e5a-97e7-3b38d5987f6b",
           "name": "Banque Marze",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/0bffeed8-1097-5050-a74d-58ca7dc0de82-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/0bffeed8-1097-5050-a74d-58ca7dc0de82-xs.png",
           "universalLink": "https://www.banquepopulaire.fr/marze/banque-a-distance/envoyer-argent-via-wero/",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -283,7 +283,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/943bb0ba-d214-5dad-a0e2-54db2fdf5253-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/943bb0ba-d214-5dad-a0e2-54db2fdf5253-xs.png",
       "banks": [
         {
           "id": "24153afe-21ef-402e-9da7-ed0829f1dc96",
@@ -303,7 +303,7 @@
         {
           "id": "37a44174-0c7b-4e82-8d48-306bc75596fe",
           "name": "ePalatine Particuliers",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/943bb0ba-d214-5dad-a0e2-54db2fdf5253-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/943bb0ba-d214-5dad-a0e2-54db2fdf5253-xs.png",
           "universalLink": "https://www.palatine.fr/clients-prives/gerer-comptes/comment-envoyer-de-largent-via-la-solution-wero/",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -320,7 +320,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/f7d4b0f1-24a8-5836-b6bb-bf5bb6390156-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/f7d4b0f1-24a8-5836-b6bb-bf5bb6390156-xs.png",
       "banks": [
         {
           "id": "a482b929-4beb-419d-ab81-1b13509d7ebd",
@@ -340,7 +340,7 @@
         {
           "id": "01fa8305-da7c-4d77-a5de-d6fa2c4b7877",
           "name": "Banque Populaire",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/f7d4b0f1-24a8-5836-b6bb-bf5bb6390156-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/f7d4b0f1-24a8-5836-b6bb-bf5bb6390156-xs.png",
           "universalLink": "https://www.banquepopulaire.fr/banque-a-distance/envoyer-argent-via-wero/",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -355,7 +355,7 @@
       "countries": [
         "DE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/7f45efa8-3759-4517-bffd-753bb4bb21e3-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/7f45efa8-3759-4517-bffd-753bb4bb21e3-xs.png",
       "banks": [
         {
           "id": "bfa34f35-df00-4bef-8470-416d0b4dcb30",
@@ -436,7 +436,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/7f45efa8-3759-4517-bffd-753bb4bb21e3-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/7f45efa8-3759-4517-bffd-753bb4bb21e3-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -447,7 +447,7 @@
         {
           "id": "7eb22c95-b7fb-474e-8c53-6b7c8f02e118",
           "name": "BBBank-Banking",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/b67efc0a-7349-443a-9149-75c32df4bb3f-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/b67efc0a-7349-443a-9149-75c32df4bb3f-xs.png",
           "universalLink": "https://bb.banking-app-links.de/dynamicKey/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -506,7 +506,7 @@
       "countries": [
         "BE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/2a78ca55-0dec-54ad-8523-43d3317f0d56-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/2a78ca55-0dec-54ad-8523-43d3317f0d56-xs.png",
       "banks": [
         {
           "id": "4e320d06-0e76-48cd-9e7b-1fb2d9535404",
@@ -527,7 +527,7 @@
         {
           "id": "80a28214-2c23-4042-88b8-e2ba798d41e2",
           "name": "Paiement entre personnes - Belfius",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/a95b2874-36ae-570c-8c46-ec9494b415d1-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/a95b2874-36ae-570c-8c46-ec9494b415d1-xs.png",
           "universalLink": "https://www.belfius.be/retail/fr/produits/paiement/smartphone/paiement-entre-personnes/index.aspx",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -535,7 +535,7 @@
         {
           "id": "7133db5e-2bd2-42bc-8761-60cede48d51f",
           "name": "Betalen onder vrienden - Belfius",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/a95b2874-36ae-570c-8c46-ec9494b415d1-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/a95b2874-36ae-570c-8c46-ec9494b415d1-xs.png",
           "universalLink": "https://www.belfius.be/retail/nl/producten/betalen/smartphone/betalen-onder-vrienden/index.aspx",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -635,7 +635,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/2adc8758-9bc2-529f-b365-faef1594062c-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/2adc8758-9bc2-529f-b365-faef1594062c-xs.png",
       "banks": [
         {
           "id": "03da66c7-4eeb-4ecc-95b2-03b469bfa941",
@@ -655,7 +655,7 @@
         {
           "id": "da4bdea7-bdea-47a8-9f51-42bccb146bb7",
           "name": "Mes Comptes",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/e0ba5bed-ab68-5f6e-890f-c5ad482c835a-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/e0ba5bed-ab68-5f6e-890f-c5ad482c835a-xs.png",
           "universalLink": "https://mabanque.bnpparibas/fr/gerer/cartes-moyens-paiement/paiement-mobile/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -670,7 +670,7 @@
       "countries": [
         "BE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/c9525fe9-69fa-5f73-b961-53ed633e652c-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/c9525fe9-69fa-5f73-b961-53ed633e652c-xs.png",
       "banks": [
         {
           "id": "7a16502d-0684-4017-bf45-561ce00cf9d5",
@@ -683,7 +683,7 @@
           "countries": [
             "BE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/c9525fe9-69fa-5f73-b961-53ed633e652c-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/c9525fe9-69fa-5f73-b961-53ed633e652c-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -694,7 +694,7 @@
         {
           "id": "f286c0b9-c1bf-43cc-8844-d6c06f8689ab",
           "name": "BNP Paribas Fortis",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/c9525fe9-69fa-5f73-b961-53ed633e652c-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/c9525fe9-69fa-5f73-b961-53ed633e652c-xs.png",
           "universalLink": "https://app.easybanking.bnpparibasfortis.be/mobile/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -753,7 +753,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/f837a41a-fec0-54e3-95d9-79a0da1581c7-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/f837a41a-fec0-54e3-95d9-79a0da1581c7-xs.png",
       "banks": [
         {
           "id": "5a44901c-55ae-4c1d-96db-2b0d81ab074a",
@@ -773,7 +773,7 @@
         {
           "id": "3f06d294-6541-4f3e-8b5f-77c619a94ed2",
           "name": "BRED Banque Populaire",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/f837a41a-fec0-54e3-95d9-79a0da1581c7-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/f837a41a-fec0-54e3-95d9-79a0da1581c7-xs.png",
           "universalLink": "https://link.bred.fr/?link=https://link.bred.fr/redirect%3Flink%3Dwero&ibi=fr.bred.bred&apn=fr.bred.fr&isi=470182955",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -788,7 +788,7 @@
       "countries": [
         "DE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/2477046e-357c-53e2-92ae-a71889169522-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/2477046e-357c-53e2-92ae-a71889169522-xs.png",
       "banks": [
         {
           "id": "9aa35ede-5797-47dc-8df0-700b1a70dc9f",
@@ -801,7 +801,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/2477046e-357c-53e2-92ae-a71889169522-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/2477046e-357c-53e2-92ae-a71889169522-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -812,7 +812,7 @@
         {
           "id": "c4887312-6552-471f-a24b-887c043df091",
           "name": "BW Bank",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/2477046e-357c-53e2-92ae-a71889169522-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/2477046e-357c-53e2-92ae-a71889169522-xs.png",
           "universalLink": "https://app.bw-bank.de/_deeplink/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -869,7 +869,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/b8c60c6b-0215-581d-b0f8-1c66f845744e-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/b8c60c6b-0215-581d-b0f8-1c66f845744e-xs.png",
       "banks": [
         {
           "id": "a4b71c79-88a9-427b-a5d7-0f1a92d099cb",
@@ -889,7 +889,7 @@
         {
           "id": "60b8a9c2-2792-46f7-bf42-914a73ee064c",
           "name": "Banxo",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/b8c60c6b-0215-581d-b0f8-1c66f845744e-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/b8c60c6b-0215-581d-b0f8-1c66f845744e-xs.png",
           "universalLink": "https://www.caisse-epargne.fr/comptes-cartes/wero/#anchor-envoyer-de-largent",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -904,7 +904,7 @@
       "countries": [
         "BE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/73711385-7613-5f76-98bb-adb1c7526042-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/73711385-7613-5f76-98bb-adb1c7526042-xs.png",
       "banks": [
         {
           "id": "c2f77cc0-5501-4fad-adc9-84658e3ff642",
@@ -917,7 +917,7 @@
           "countries": [
             "BE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/73711385-7613-5f76-98bb-adb1c7526042-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/73711385-7613-5f76-98bb-adb1c7526042-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -928,7 +928,7 @@
         {
           "id": "117c4be6-4e4a-4e6d-951c-486a44afaae8",
           "name": "CBC",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/b5cf15dd-cc9a-555e-afdf-4d4e119d4038-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/b5cf15dd-cc9a-555e-afdf-4d4e119d4038-xs.png",
           "universalLink": "https://ul.cbc.be/clc-payPaymentRequest?wero-uc=ecom&wero-consent={consentId}",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -943,7 +943,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/1781bd9b-b416-5ff1-91b4-1fc34636c56a-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/1781bd9b-b416-5ff1-91b4-1fc34636c56a-xs.png",
       "banks": [
         {
           "id": "d0de6f5c-d0e0-4532-9bae-0ebb4ba53d73",
@@ -963,7 +963,7 @@
         {
           "id": "aca966f0-8d34-4974-879f-b29ebcc9b0c5",
           "name": "CIC Pay",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/1781bd9b-b416-5ff1-91b4-1fc34636c56a-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/1781bd9b-b416-5ff1-91b4-1fc34636c56a-xs.png",
           "universalLink": "https://appp-cicpay-applinks.e-i.com/home/",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -1098,7 +1098,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/92e0d2a2-25b3-56f8-9b9f-5e970fa14cf5-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/92e0d2a2-25b3-56f8-9b9f-5e970fa14cf5-xs.png",
       "banks": [
         {
           "id": "bfe99296-f95a-4092-aa96-1f38efe09676",
@@ -1118,7 +1118,7 @@
         {
           "id": "cc928ec7-bcaf-4d84-bb1c-63ef91be3aa6",
           "name": "Ma Banque",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/92e0d2a2-25b3-56f8-9b9f-5e970fa14cf5-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/92e0d2a2-25b3-56f8-9b9f-5e970fa14cf5-xs.png",
           "universalLink": "https://www.credit-agricole.fr/particulier/applications/ma-banque.html",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -1133,7 +1133,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/2304a5b1-007f-5cac-b003-a8be78a608d9-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/2304a5b1-007f-5cac-b003-a8be78a608d9-xs.png",
       "banks": [
         {
           "id": "8d992072-8d99-4c70-8617-f3a4926d82cb",
@@ -1153,7 +1153,7 @@
         {
           "id": "de23e944-d04d-43db-a38f-d9ede828c6ba",
           "name": "Crédit Coopératif",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/2304a5b1-007f-5cac-b003-a8be78a608d9-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/2304a5b1-007f-5cac-b003-a8be78a608d9-xs.png",
           "universalLink": "https://www.credit-cooperatif.coop/comptes-paiements/wero/",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -1168,7 +1168,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/b310d251-a4b6-5f23-9ea3-b3627bd071e1-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/b310d251-a4b6-5f23-9ea3-b3627bd071e1-xs.png",
       "banks": [
         {
           "id": "76cb986e-f110-4ce9-bc3d-0f79bd852ca7",
@@ -1188,7 +1188,7 @@
         {
           "id": "9e71a2ff-963d-4fc4-9129-39ee9fa3e8c8",
           "name": "Crédit Maritime",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/b310d251-a4b6-5f23-9ea3-b3627bd071e1-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/b310d251-a4b6-5f23-9ea3-b3627bd071e1-xs.png",
           "universalLink": "https://www.banquepopulaire.fr/cmgo/banque-a-distance/envoyer-argent-via-wero/",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -1203,7 +1203,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/bd5ef52f-478d-53d5-b174-cf4b1e0decbc-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/bd5ef52f-478d-53d5-b174-cf4b1e0decbc-xs.png",
       "banks": [
         {
           "id": "1c46deb3-3468-4f48-9264-50662842e785",
@@ -1223,7 +1223,7 @@
         {
           "id": "04b0571c-d5e1-44cf-bc27-df18a224360d",
           "name": "Crédit Mutuel Pay",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/bd5ef52f-478d-53d5-b174-cf4b1e0decbc-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/bd5ef52f-478d-53d5-b174-cf4b1e0decbc-xs.png",
           "universalLink": "https://appp-cmpay-applinks.e-i.com/home/",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -1240,7 +1240,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/a1624bbe-aef1-5edf-bd9a-0ccced4169c1-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/a1624bbe-aef1-5edf-bd9a-0ccced4169c1-xs.png",
       "banks": [
         {
           "id": "4af1d8fb-9432-48a1-ad13-a83764c5c8ba",
@@ -1260,7 +1260,7 @@
         {
           "id": "f685cc44-7d6e-427a-8bcd-488f1d2ad227",
           "name": "Crédit Mutuel Arkéa",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/a1624bbe-aef1-5edf-bd9a-0ccced4169c1-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/a1624bbe-aef1-5edf-bd9a-0ccced4169c1-xs.png",
           "universalLink": "https://www.cmb.fr/reseau-bancaire-cooperatif/web/comptes-et-cartes/payer-autrement/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -1315,7 +1315,7 @@
       "countries": [
         "DE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/7762a70c-0279-4c51-b84d-aeb924bdcef6-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/7762a70c-0279-4c51-b84d-aeb924bdcef6-xs.png",
       "banks": [
         {
           "id": "d1e8d50d-9e88-449d-97be-463ef2601cb4",
@@ -1341,7 +1341,7 @@
         {
           "id": "632cca44-9fcf-4599-8321-07b0c3d1a325",
           "name": "MyBanking",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/66d67f10-51fe-4381-a067-7bba260aa695-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/66d67f10-51fe-4381-a067-7bba260aa695-xs.png",
           "universalLink": "https://mybanking.banking-app-links.de/dynamicKey/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -1358,7 +1358,7 @@
       "countries": [
         "DE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/7cee9860-9af5-4a53-b209-684e3bf2b890-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/7cee9860-9af5-4a53-b209-684e3bf2b890-xs.png",
       "banks": [
         {
           "id": "9341f0f4-d629-4c54-a777-a727bc20f0be",
@@ -1373,7 +1373,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/7cee9860-9af5-4a53-b209-684e3bf2b890-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/7cee9860-9af5-4a53-b209-684e3bf2b890-xs.png",
           "standaloneAppSupport": "supported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -1443,7 +1443,7 @@
       "countries": [
         "DE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/f0ded948-dc85-4906-aca4-dfe2b021b97d-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/f0ded948-dc85-4906-aca4-dfe2b021b97d-xs.png",
       "banks": [
         {
           "id": "2088bfcb-5fcc-459b-93bc-968d1d8453d3",
@@ -1460,7 +1460,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/f0ded948-dc85-4906-aca4-dfe2b021b97d-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/f0ded948-dc85-4906-aca4-dfe2b021b97d-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -1471,7 +1471,7 @@
         {
           "id": "6006ffe1-d2bc-415b-9be5-041150bb30f5",
           "name": "VR Banking App",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/8853208d-5a9b-46c7-b9b8-00403ccca004-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/8853208d-5a9b-46c7-b9b8-00403ccca004-xs.png",
           "universalLink": "https://vr.banking-app-links.de/dynamicKey/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -1486,7 +1486,7 @@
       "countries": [
         "DE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/fcc2315d-2de6-43cd-a88e-644f8c932b5e-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/fcc2315d-2de6-43cd-a88e-644f8c932b5e-xs.png",
       "banks": [
         {
           "id": "dbc0005c-8d17-4ef8-87ff-1ed1cfed9438",
@@ -1575,7 +1575,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/fcc2315d-2de6-43cd-a88e-644f8c932b5e-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/fcc2315d-2de6-43cd-a88e-644f8c932b5e-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -1586,7 +1586,7 @@
         {
           "id": "632cca44-9fcf-4599-8321-07b0c3d1a325",
           "name": "MyBanking",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/66d67f10-51fe-4381-a067-7bba260aa695-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/66d67f10-51fe-4381-a067-7bba260aa695-xs.png",
           "universalLink": "https://mybanking.banking-app-links.de/dynamicKey/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -1601,7 +1601,7 @@
       "countries": [
         "DE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/116eb1bb-bffd-4b5f-a7be-3c6bebb80b2c-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/116eb1bb-bffd-4b5f-a7be-3c6bebb80b2c-xs.png",
       "banks": [
         {
           "id": "6899d884-c1ef-4b61-8d84-5925e8037be9",
@@ -1622,7 +1622,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/116eb1bb-bffd-4b5f-a7be-3c6bebb80b2c-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/116eb1bb-bffd-4b5f-a7be-3c6bebb80b2c-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -1633,7 +1633,7 @@
         {
           "id": "632cca44-9fcf-4599-8321-07b0c3d1a325",
           "name": "MyBanking",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/66d67f10-51fe-4381-a067-7bba260aa695-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/66d67f10-51fe-4381-a067-7bba260aa695-xs.png",
           "universalLink": "https://mybanking.banking-app-links.de/dynamicKey/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -1648,7 +1648,7 @@
       "countries": [
         "DE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/d9594b4c-2935-4a63-972e-bb9e5e4937e5-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/d9594b4c-2935-4a63-972e-bb9e5e4937e5-xs.png",
       "banks": [
         {
           "id": "29cbfe3c-e328-4afc-a334-332502758bcb",
@@ -1675,7 +1675,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/d9594b4c-2935-4a63-972e-bb9e5e4937e5-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/d9594b4c-2935-4a63-972e-bb9e5e4937e5-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -1686,7 +1686,7 @@
         {
           "id": "632cca44-9fcf-4599-8321-07b0c3d1a325",
           "name": "MyBanking",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/66d67f10-51fe-4381-a067-7bba260aa695-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/66d67f10-51fe-4381-a067-7bba260aa695-xs.png",
           "universalLink": "https://mybanking.banking-app-links.de/dynamicKey/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -1701,7 +1701,7 @@
       "countries": [
         "BE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/6e9be178-8bb8-514a-be08-9d1cb0056ec6-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/6e9be178-8bb8-514a-be08-9d1cb0056ec6-xs.png",
       "banks": [
         {
           "id": "1f5119d0-e58d-4bf5-a3e5-4fd2aa1515a4",
@@ -1714,7 +1714,7 @@
           "countries": [
             "BE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/6e9be178-8bb8-514a-be08-9d1cb0056ec6-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/6e9be178-8bb8-514a-be08-9d1cb0056ec6-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -1725,7 +1725,7 @@
         {
           "id": "338c0c45-3a46-4cd3-8b07-adf1f869dd2d",
           "name": "Fintro",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/6e9be178-8bb8-514a-be08-9d1cb0056ec6-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/6e9be178-8bb8-514a-be08-9d1cb0056ec6-xs.png",
           "universalLink": "https://app.easybanking.fintro.be/mobile/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -1740,7 +1740,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/7219d750-eae2-4f32-9add-d1f8f5bcb92b-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/7219d750-eae2-4f32-9add-d1f8f5bcb92b-xs.png",
       "banks": [
         {
           "id": "f8ac6c41-2c55-4fac-adf0-fe6efc491d21",
@@ -1753,7 +1753,7 @@
           "countries": [
             "FR"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/7219d750-eae2-4f32-9add-d1f8f5bcb92b-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/7219d750-eae2-4f32-9add-d1f8f5bcb92b-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -1764,7 +1764,7 @@
         {
           "id": "efc79dd4-9994-458f-b9c9-4776fe1748b1",
           "name": "Fortuneo - la banque en ligne",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/7219d750-eae2-4f32-9add-d1f8f5bcb92b-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/7219d750-eae2-4f32-9add-d1f8f5bcb92b-xs.png",
           "universalLink": "https://www.fortuneo.fr/paiements",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -1779,7 +1779,7 @@
       "countries": [
         "DE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/7b823235-7656-4a44-9fce-1a772d9cc582-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/7b823235-7656-4a44-9fce-1a772d9cc582-xs.png",
       "banks": [
         {
           "id": "e62b3f3c-acbb-4aff-81d0-c7c452a08bd2",
@@ -1803,7 +1803,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/7b823235-7656-4a44-9fce-1a772d9cc582-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/7b823235-7656-4a44-9fce-1a772d9cc582-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -1814,7 +1814,7 @@
         {
           "id": "cca4416f-0aeb-4d63-afea-0c464d23b53b",
           "name": "GLS Banking",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/813c0b07-91a6-4d0f-9187-e36b041b5be8-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/813c0b07-91a6-4d0f-9187-e36b041b5be8-xs.png",
           "universalLink": "https://gls.banking-app-links.de/dynamicKey/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -1829,7 +1829,7 @@
       "countries": [
         "BE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/a8886b70-4008-5bb6-bc51-d94e200f1d79-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/a8886b70-4008-5bb6-bc51-d94e200f1d79-xs.png",
       "banks": [
         {
           "id": "e3eaecd8-47d7-4afa-9bd6-46b550b2a6ae",
@@ -1842,7 +1842,7 @@
           "countries": [
             "BE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/a8886b70-4008-5bb6-bc51-d94e200f1d79-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/a8886b70-4008-5bb6-bc51-d94e200f1d79-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -1853,7 +1853,7 @@
         {
           "id": "afe3b78e-4e59-4d58-b0a3-3d687733ca37",
           "name": "Hello bank! Belgium",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/a8886b70-4008-5bb6-bc51-d94e200f1d79-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/a8886b70-4008-5bb6-bc51-d94e200f1d79-xs.png",
           "universalLink": "https://app.easybanking.hellobank.be/mobile/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -1868,7 +1868,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/110891ea-d53d-5f74-9861-9b62f68c3bee-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/110891ea-d53d-5f74-9861-9b62f68c3bee-xs.png",
       "banks": [
         {
           "id": "37d08f74-53c3-43b3-a772-07e33e294bdb",
@@ -1888,7 +1888,7 @@
         {
           "id": "33950fd0-4c9b-48e7-8aa2-5abad7645f83",
           "name": "Hello bank!",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/110891ea-d53d-5f74-9861-9b62f68c3bee-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/110891ea-d53d-5f74-9861-9b62f68c3bee-xs.png",
           "universalLink": "https://www.hellobank.fr/fr/client/notre-offre/comptes-et-cartes/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -1903,7 +1903,7 @@
       "countries": [
         "BE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/76bc3901-220e-54e3-a67e-a1f666c5d812-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/76bc3901-220e-54e3-a67e-a1f666c5d812-xs.png",
       "banks": [
         {
           "id": "2cb02d1a-09cc-411a-9fa1-bf80f71a7950",
@@ -1916,7 +1916,7 @@
           "countries": [
             "BE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/76bc3901-220e-54e3-a67e-a1f666c5d812-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/76bc3901-220e-54e3-a67e-a1f666c5d812-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -1927,7 +1927,7 @@
         {
           "id": "7bfeff21-c1d1-4485-a1ac-51595052f725",
           "name": "ING Belgium",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/76bc3901-220e-54e3-a67e-a1f666c5d812-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/76bc3901-220e-54e3-a67e-a1f666c5d812-xs.png",
           "universalLink": "https://www.ing.be/wero/p2p",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -1944,7 +1944,7 @@
       "countries": [
         "DE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/0506f723-8014-48d6-ab68-e30d147fd297-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/0506f723-8014-48d6-ab68-e30d147fd297-xs.png",
       "banks": [
         {
           "id": "3ab02d1a-09cc-411a-9fa1-bf80f71a7950",
@@ -1959,7 +1959,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/0506f723-8014-48d6-ab68-e30d147fd297-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/0506f723-8014-48d6-ab68-e30d147fd297-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -1970,7 +1970,7 @@
         {
           "id": "9cfeff21-c1d1-4485-a1ac-51595052f725",
           "name": "ING Deutschland",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/7a982bbb-afcb-4680-8d52-b25dfc45023a-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/7a982bbb-afcb-4680-8d52-b25dfc45023a-xs.png",
           "universalLink": "https://banking.ing.de/app/da_wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -1985,7 +1985,7 @@
       "countries": [
         "BE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/11ae797a-9476-53db-9380-7a799cf94f38-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/11ae797a-9476-53db-9380-7a799cf94f38-xs.png",
       "banks": [
         {
           "id": "79bd22cd-7125-41bc-ab8a-778965d8b86d",
@@ -1998,7 +1998,7 @@
           "countries": [
             "BE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/11ae797a-9476-53db-9380-7a799cf94f38-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/11ae797a-9476-53db-9380-7a799cf94f38-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -2009,7 +2009,7 @@
         {
           "id": "0846061c-5099-4338-ba91-1729ac858675",
           "name": "KBC",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/65ecd4ab-ab13-5250-b7bd-d41a78c8972e-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/65ecd4ab-ab13-5250-b7bd-d41a78c8972e-xs.png",
           "universalLink": "https://ul.kbc.be/clc-payPaymentRequest?wero-uc=ecom&wero-consent={consentId}",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -2024,7 +2024,7 @@
       "countries": [
         "BE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/ccf1edeb-73f2-5775-a978-907eca7626df-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/ccf1edeb-73f2-5775-a978-907eca7626df-xs.png",
       "banks": [
         {
           "id": "28fdf52a-f5b7-4a91-8380-f5d1e41677ef",
@@ -2037,7 +2037,7 @@
           "countries": [
             "BE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/ccf1edeb-73f2-5775-a978-907eca7626df-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/ccf1edeb-73f2-5775-a978-907eca7626df-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -2048,7 +2048,7 @@
         {
           "id": "c4820720-2c3c-41bb-958e-cf4dab0eda99",
           "name": "KBC Brussels",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/2a8fafca-6933-5b81-ac94-c04845bad03c-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/2a8fafca-6933-5b81-ac94-c04845bad03c-xs.png",
           "universalLink": "https://ul.kbcbrussels.be/clc-payPaymentRequest?wero-uc=ecom&wero-consent={consentId}",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -2065,7 +2065,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/8ee78212-597f-5f91-89c6-20a44fb07b2f-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/8ee78212-597f-5f91-89c6-20a44fb07b2f-xs.png",
       "banks": [
         {
           "id": "fe9d1dda-62fd-488b-8236-64c1e7b5459f",
@@ -2102,7 +2102,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/699eb17d-463b-541b-a471-5bb84021a24f-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/699eb17d-463b-541b-a471-5bb84021a24f-xs.png",
       "banks": [
         {
           "id": "27b18de4-e766-487c-8e28-1960b29e9230",
@@ -2122,7 +2122,7 @@
         {
           "id": "9eb9bb0d-7796-4e3e-8d0d-e423d7a49504",
           "name": "LCL Mes Comptes",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/699eb17d-463b-541b-a471-5bb84021a24f-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/699eb17d-463b-541b-a471-5bb84021a24f-xs.png",
           "universalLink": "https://s.lcl.fr/SVi2/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -2137,7 +2137,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/9596bbc9-db2d-5004-9682-d7db25b4edca-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/9596bbc9-db2d-5004-9682-d7db25b4edca-xs.png",
       "banks": [
         {
           "id": "cd6324c4-2686-4fd4-ab8d-1c004f1d0c0f",
@@ -2157,7 +2157,7 @@
         {
           "id": "84900467-2b2c-431f-8b2f-d65fabba9139",
           "name": "Monabanq",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/9596bbc9-db2d-5004-9682-d7db25b4edca-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/9596bbc9-db2d-5004-9682-d7db25b4edca-xs.png",
           "universalLink": "https://appp-mbqpay-applinks.e-i.com/home/",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -2264,7 +2264,7 @@
       "countries": [
         "DE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/fea9a927-4dd7-468e-bd93-d5941751c26f-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/fea9a927-4dd7-468e-bd93-d5941751c26f-xs.png",
       "banks": [
         {
           "id": "61f3d2c8-3288-4c10-899d-23cc1accf13e",
@@ -2289,7 +2289,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/fea9a927-4dd7-468e-bd93-d5941751c26f-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/fea9a927-4dd7-468e-bd93-d5941751c26f-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -2300,7 +2300,7 @@
         {
           "id": "6006ffe1-d2bc-415b-9be5-041150bb30f5",
           "name": "VR Banking App",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/8853208d-5a9b-46c7-b9b8-00403ccca004-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/8853208d-5a9b-46c7-b9b8-00403ccca004-xs.png",
           "universalLink": "https://vr.banking-app-links.de/dynamicKey/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -2315,7 +2315,7 @@
       "countries": [
         "DE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/bcca79b0-57ff-5a7c-880f-0838ea1e03bb-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/bcca79b0-57ff-5a7c-880f-0838ea1e03bb-xs.png",
       "banks": [
         {
           "id": "d6c51412-71a7-4d0d-aa5f-c6867a5c8908",
@@ -2328,7 +2328,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/bcca79b0-57ff-5a7c-880f-0838ea1e03bb-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/bcca79b0-57ff-5a7c-880f-0838ea1e03bb-xs.png",
           "standaloneAppSupport": "supported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -2354,7 +2354,7 @@
       "countries": [
         "DE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
       "banks": [
         {
           "id": "953eb4b6-1b85-4498-837a-96c12993d82b",
@@ -2373,7 +2373,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -2396,7 +2396,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -2423,7 +2423,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -2445,7 +2445,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -2467,7 +2467,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -2494,7 +2494,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -2524,7 +2524,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -2546,7 +2546,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -2569,7 +2569,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -2593,7 +2593,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/62cd51d2-3354-485b-bc30-9882691e5144-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -2604,7 +2604,7 @@
         {
           "id": "df9662e8-66a8-4a3a-b0bb-1a16dcfb8374",
           "name": "PSD Banking",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/94292975-5d9c-4dc2-850a-5bba987d7d30-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/94292975-5d9c-4dc2-850a-5bba987d7d30-xs.png",
           "universalLink": "https://psd.banking-app-links.de/dynamicKey/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -2621,7 +2621,7 @@
         "DE",
         "BE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/dcd7d549-d6e8-5762-8f41-119b200a4314-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/dcd7d549-d6e8-5762-8f41-119b200a4314-xs.png",
       "banks": [
         {
           "id": "ade397c2-67e2-42af-9b71-5339bbf86bbd",
@@ -2636,7 +2636,7 @@
             "DE",
             "BE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/dcd7d549-d6e8-5762-8f41-119b200a4314-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/dcd7d549-d6e8-5762-8f41-119b200a4314-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -2647,7 +2647,7 @@
         {
           "id": "eb31e0c8-0afa-402e-a977-a83ddcdf3d61",
           "name": "Revolut",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/dcd7d549-d6e8-5762-8f41-119b200a4314-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/dcd7d549-d6e8-5762-8f41-119b200a4314-xs.png",
           "universalLink": "https://revolut.com/app/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -2666,7 +2666,7 @@
         "PT",
         "DE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/ddaf7ae8-8ac1-49d0-b1e1-cd1e1e041f1c.html",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/ddaf7ae8-8ac1-49d0-b1e1-cd1e1e041f1c.png",
       "banks": [
         {
           "id": "7e344486-3f10-4f42-98bd-0362192fdd66",
@@ -2684,7 +2684,7 @@
             "PT",
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/ddaf7ae8-8ac1-49d0-b1e1-cd1e1e041f1c.html",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/ddaf7ae8-8ac1-49d0-b1e1-cd1e1e041f1c.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "unsupported",
           "eCommercePaymentsSupport": "unsupported",
@@ -2710,7 +2710,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/e46f4701-37cb-5faf-88c9-b26e0b2e0ef2-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/e46f4701-37cb-5faf-88c9-b26e0b2e0ef2-xs.png",
       "banks": [
         {
           "id": "fa6d6060-d78f-4861-afb5-5bf904b2ee22",
@@ -2730,7 +2730,7 @@
         {
           "id": "c71ba97e-4238-4f8b-afbb-9fd1515a4985",
           "name": "SBE Banque Populaire",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/e46f4701-37cb-5faf-88c9-b26e0b2e0ef2-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/e46f4701-37cb-5faf-88c9-b26e0b2e0ef2-xs.png",
           "universalLink": "https://www.netsbe.fr/particuliers/besoins/100-connecte-avec-votre-banque/lappli-mobile",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -2747,7 +2747,7 @@
       "countries": [
         "FR"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/c9056246-e5c2-5536-ae16-39dc643f1585-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/c9056246-e5c2-5536-ae16-39dc643f1585-xs.png",
       "banks": [
         {
           "id": "040819d6-cf18-431a-a66a-df09923b3524",
@@ -2762,7 +2762,7 @@
           "countries": [
             "FR"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/c9056246-e5c2-5536-ae16-39dc643f1585-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/c9056246-e5c2-5536-ae16-39dc643f1585-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -2773,7 +2773,7 @@
         {
           "id": "c54f1a6e-45e4-43e9-9063-e003e9c155fa",
           "name": "L'Appli SG",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/c9056246-e5c2-5536-ae16-39dc643f1585-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/c9056246-e5c2-5536-ae16-39dc643f1585-xs.png",
           "universalLink": "https://applink.particuliers.sg.fr/services-en-ligne/paiement-mobile-wero?src=wero&wero-uc=market",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -2790,7 +2790,7 @@
       "countries": [
         "DE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/1d1556db-7920-433b-bf21-1678487bed05-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/1d1556db-7920-433b-bf21-1678487bed05-xs.png",
       "banks": [
         {
           "id": "c4ea8ebc-1407-434d-9c71-1012048db8e6",
@@ -2808,7 +2808,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/1d1556db-7920-433b-bf21-1678487bed05-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/1d1556db-7920-433b-bf21-1678487bed05-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -2819,7 +2819,7 @@
         {
           "id": "6006ffe1-d2bc-415b-9be5-041150bb30f5",
           "name": "VR Banking App",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/8853208d-5a9b-46c7-b9b8-00403ccca004-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/8853208d-5a9b-46c7-b9b8-00403ccca004-xs.png",
           "universalLink": "https://vr.banking-app-links.de/dynamicKey/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -2834,7 +2834,7 @@
       "countries": [
         "DE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/040191b8-19be-4a99-a6da-d24e5098aa04-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/040191b8-19be-4a99-a6da-d24e5098aa04-xs.png",
       "banks": [
         {
           "id": "03b461df-b661-4b15-a4f9-c268579ca4f2",
@@ -2859,7 +2859,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/040191b8-19be-4a99-a6da-d24e5098aa04-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/040191b8-19be-4a99-a6da-d24e5098aa04-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -2915,7 +2915,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/040191b8-19be-4a99-a6da-d24e5098aa04-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/040191b8-19be-4a99-a6da-d24e5098aa04-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -2983,7 +2983,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/040191b8-19be-4a99-a6da-d24e5098aa04-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/040191b8-19be-4a99-a6da-d24e5098aa04-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -3015,7 +3015,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/040191b8-19be-4a99-a6da-d24e5098aa04-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/040191b8-19be-4a99-a6da-d24e5098aa04-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -3057,7 +3057,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/040191b8-19be-4a99-a6da-d24e5098aa04-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/040191b8-19be-4a99-a6da-d24e5098aa04-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -3112,7 +3112,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/040191b8-19be-4a99-a6da-d24e5098aa04-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/040191b8-19be-4a99-a6da-d24e5098aa04-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -3166,7 +3166,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/040191b8-19be-4a99-a6da-d24e5098aa04-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/040191b8-19be-4a99-a6da-d24e5098aa04-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -3202,7 +3202,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/040191b8-19be-4a99-a6da-d24e5098aa04-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/040191b8-19be-4a99-a6da-d24e5098aa04-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -3289,7 +3289,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/040191b8-19be-4a99-a6da-d24e5098aa04-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/040191b8-19be-4a99-a6da-d24e5098aa04-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -3300,7 +3300,7 @@
         {
           "id": "cd2de369-d3e3-444f-90de-6cefad8272f9",
           "name": "SpardaBanking App",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/1dae1878-8e8d-4377-9818-544a7c9bef8a-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/1dae1878-8e8d-4377-9818-544a7c9bef8a-xs.png",
           "universalLink": "https://sparda.banking-app-links.de/dynamicKey/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -3315,7 +3315,7 @@
       "countries": [
         "DE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/2a63cb0f-adc1-5f48-9587-eb463eec00b9-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/2a63cb0f-adc1-5f48-9587-eb463eec00b9-xs.png",
       "banks": [
         {
           "id": "d84da28c-566b-4474-818e-4a47fa7271f1",
@@ -3328,7 +3328,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/2a63cb0f-adc1-5f48-9587-eb463eec00b9-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/2a63cb0f-adc1-5f48-9587-eb463eec00b9-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -3339,7 +3339,7 @@
         {
           "id": "bc3abb31-8878-4324-9ac4-57b89089c7a4",
           "name": "Sparkasse Ihre mobile Filiale",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/7f4e9855-31c9-567d-9bb1-1e3212252d8a-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/7f4e9855-31c9-567d-9bb1-1e3212252d8a-xs.png",
           "universalLink": "https://www.sparkasse.de/_deeplink/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -3446,7 +3446,7 @@
       "countries": [
         "DE"
       ],
-      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
       "banks": [
         {
           "id": "8f3b87ee-f8fe-4c54-859f-ac4b494c2b47",
@@ -3468,7 +3468,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -3556,7 +3556,7 @@
             "Kirkel",
             "SABADE5SXXX"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/eec0654e-c0b3-4e27-b20c-f777c7ff538a-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/eec0654e-c0b3-4e27-b20c-f777c7ff538a-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -3577,7 +3577,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -3619,7 +3619,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -3751,7 +3751,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -3780,7 +3780,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -3801,7 +3801,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -3866,7 +3866,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -3987,7 +3987,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -4128,7 +4128,7 @@
             "Alzenau-Michelbach",
             "FFVBDEFFXXX"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/6408741b-eae7-429f-93fe-7a6f1d108008-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/6408741b-eae7-429f-93fe-7a6f1d108008-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -4146,7 +4146,7 @@
             "Bad Homburg",
             "GENODE51BH2"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/4b825173-9390-41da-ace8-aa6e6500483d-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/4b825173-9390-41da-ace8-aa6e6500483d-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -4193,7 +4193,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -4278,7 +4278,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -4304,7 +4304,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -4439,7 +4439,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -4487,7 +4487,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -4576,7 +4576,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -4683,7 +4683,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -4710,7 +4710,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -4766,7 +4766,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -4878,7 +4878,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -4979,7 +4979,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -5045,7 +5045,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -5073,7 +5073,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -5164,7 +5164,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -5871,7 +5871,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -5894,7 +5894,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -5940,7 +5940,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -6017,7 +6017,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -6267,7 +6267,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -6582,7 +6582,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -6622,7 +6622,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -6637,7 +6637,6 @@
             "6006ffe1-d2bc-415b-9be5-041150bb30f5"
           ],
           "aliases": [
-            "Mörsdorf",
             "Beltheim",
             "Kastellaun",
             "GENODED1KSL"
@@ -6645,7 +6644,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -6884,7 +6883,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -6917,7 +6916,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -7047,7 +7046,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -7070,7 +7069,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -7174,7 +7173,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -7256,7 +7255,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -7479,7 +7478,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -7623,7 +7622,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -7987,7 +7986,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -8262,7 +8261,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -8306,7 +8305,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -8331,7 +8330,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -8392,7 +8391,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -8583,7 +8582,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -8649,7 +8648,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -8672,7 +8671,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -8699,7 +8698,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -8724,7 +8723,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -8745,7 +8744,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -8767,7 +8766,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -8789,7 +8788,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -9152,7 +9151,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -9194,7 +9193,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -9252,7 +9251,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -9302,7 +9301,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -9868,7 +9867,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -9969,7 +9968,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -10148,7 +10147,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -10422,7 +10421,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -10687,7 +10686,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -10713,7 +10712,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -10811,7 +10810,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -10909,7 +10908,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -11312,7 +11311,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -11559,7 +11558,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -12041,7 +12040,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -12295,7 +12294,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -12359,7 +12358,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -12388,7 +12387,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -12446,7 +12445,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -12470,7 +12469,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -12550,7 +12549,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -12654,7 +12653,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -12762,7 +12761,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -12790,7 +12789,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -12825,7 +12824,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -12849,7 +12848,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -12962,7 +12961,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -12991,7 +12990,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -13022,7 +13021,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -13054,7 +13053,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -13202,7 +13201,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -13223,7 +13222,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -13268,7 +13267,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -13330,7 +13329,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -13354,7 +13353,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -13401,7 +13400,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -13423,7 +13422,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -13449,7 +13448,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -13625,7 +13624,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -13689,7 +13688,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -13824,7 +13823,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -13967,7 +13966,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14011,7 +14010,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14039,7 +14038,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14144,7 +14143,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14170,7 +14169,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14199,7 +14198,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14223,7 +14222,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14246,7 +14245,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14270,7 +14269,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14299,7 +14298,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14320,7 +14319,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14349,7 +14348,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14445,7 +14444,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14471,7 +14470,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14584,7 +14583,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14613,7 +14612,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14635,7 +14634,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14656,7 +14655,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14709,7 +14708,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14801,7 +14800,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14825,7 +14824,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14855,7 +14854,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14897,7 +14896,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14961,7 +14960,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -14992,7 +14991,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -15019,7 +15018,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -15092,7 +15091,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -15203,7 +15202,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -15292,7 +15291,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -15313,7 +15312,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -15382,7 +15381,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -15491,7 +15490,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -15632,7 +15631,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -15688,7 +15687,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -15775,7 +15774,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -15855,7 +15854,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -15896,7 +15895,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -16223,7 +16222,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -16253,7 +16252,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -16300,7 +16299,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -16322,7 +16321,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -16345,7 +16344,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -16403,7 +16402,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -16451,7 +16450,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -16475,7 +16474,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -16498,7 +16497,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -16538,7 +16537,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -16567,7 +16566,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -16656,7 +16655,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -17138,7 +17137,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -17203,7 +17202,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -17305,7 +17304,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -17340,7 +17339,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -17364,7 +17363,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -17386,7 +17385,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -17480,7 +17479,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -17530,7 +17529,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -17551,7 +17550,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -17675,7 +17674,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -17697,7 +17696,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -17722,7 +17721,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -17747,7 +17746,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -17778,7 +17777,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -17827,7 +17826,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -17944,7 +17943,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -18072,7 +18071,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -18156,7 +18155,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -18177,7 +18176,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -18200,7 +18199,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -18221,7 +18220,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -18318,7 +18317,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -18358,7 +18357,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -18396,7 +18395,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -18417,7 +18416,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -18441,7 +18440,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -18464,7 +18463,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -18487,7 +18486,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -18525,7 +18524,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -18666,7 +18665,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -18801,7 +18800,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -18826,7 +18825,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -18850,7 +18849,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -18972,7 +18971,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -18995,7 +18994,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -19018,7 +19017,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -19046,7 +19045,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -19077,7 +19076,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -19116,7 +19115,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -19185,7 +19184,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -19228,7 +19227,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -19249,7 +19248,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -19270,7 +19269,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -19297,7 +19296,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -19330,7 +19329,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -19363,7 +19362,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -19393,7 +19392,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -19418,7 +19417,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -19472,7 +19471,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -19501,7 +19500,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -19566,7 +19565,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -19607,7 +19606,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -19647,7 +19646,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -19670,7 +19669,7 @@
           "countries": [
             "DE"
           ],
-          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/edf01c3b-7fe2-4f53-afae-8a9e5418fc32-xs.png",
           "standaloneAppSupport": "unsupported",
           "P2PPaymentsSupport": "supported",
           "eCommercePaymentsSupport": "unknown",
@@ -20145,7 +20144,7 @@
         {
           "id": "6006ffe1-d2bc-415b-9be5-041150bb30f5",
           "name": "VR Banking App",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/8853208d-5a9b-46c7-b9b8-00403ccca004-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/8853208d-5a9b-46c7-b9b8-00403ccca004-xs.png",
           "universalLink": "https://vr.banking-app-links.de/dynamicKey/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -20153,7 +20152,7 @@
         {
           "id": "177ad147-de4a-49ba-930f-7f818f7cd609",
           "name": "Frankfurter Volksbank Banking",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/4381756a-d891-4b29-b1a0-019eb50e7203-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/4381756a-d891-4b29-b1a0-019eb50e7203-xs.png",
           "universalLink": "https://fvb.banking-app-links.de/dynamicKey/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -20161,7 +20160,7 @@
         {
           "id": "632cca44-9fcf-4599-8321-07b0c3d1a325",
           "name": "MyBanking",
-          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/66d67f10-51fe-4381-a067-7bba260aa695-xs.png",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/66d67f10-51fe-4381-a067-7bba260aa695-xs.png",
           "universalLink": "https://mybanking.banking-app-links.de/dynamicKey/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
@@ -20171,7 +20170,7 @@
   ],
   "standaloneAppResource": {
     "name": "Wero",
-    "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/refs/heads/main/assets/73fff50b-3564-5f0b-a4c8-e45c9d15f756-xs.png",
+    "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/73fff50b-3564-5f0b-a4c8-e45c9d15f756-xs.png",
     "universalLink": "https://app.weropay.eu"
   }
 }

@@ -51,7 +51,7 @@ const p2pSchema = zod.strictObject({
   }),
 });
 
-const p2pData = await fetch(process.env.WERO_API_URL ?? "").then((res) =>
+const p2pData = await fetch(process.env.DATA_WERO_API_URL ?? "").then((res) =>
   res.json()
 );
 
@@ -100,14 +100,16 @@ for (const brand of weroData.brands) {
       website: existingBankData?.website ?? "https://example.com",
       bankContext: bank.bankContext,
       appIds:
-        bank.appIds.length === 0 ? existingBankData?.appIds ?? [] : bank.appIds,
+        bank.appIds.length === 0
+          ? (existingBankData?.appIds ?? [])
+          : bank.appIds,
       aliases: bank.aliases,
       countries: bank.countries,
       logoUrl: bank.logoUrl ? await saveAsset(bank.logoUrl) : undefined,
       // Could be "announced"
       standaloneAppSupport: bank.supportsStandaloneApp
         ? "supported"
-        : existingBankData?.standaloneAppSupport ?? "unsupported",
+        : (existingBankData?.standaloneAppSupport ?? "unsupported"),
       P2PPaymentsSupport: "supported" as const,
       eCommercePaymentsSupport:
         existingBankData?.eCommercePaymentsSupport ?? "unknown",
@@ -125,7 +127,7 @@ for (const brand of weroData.brands) {
     banks,
     apps:
       brand.apps.length === 0
-        ? existingBrandData?.apps ?? []
+        ? (existingBrandData?.apps ?? [])
         : await Promise.all(
             brand.apps.map(async (app) => ({
               id: app.id,

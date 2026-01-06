@@ -24,8 +24,8 @@ async function searchWebsite(
   countries: string[]
 ): Promise<string> {
   const url = new URL(`https://www.googleapis.com/customsearch/v1`);
-  url.searchParams.set("key", process.env.GOOGLE_API_KEY ?? "");
-  url.searchParams.set("cx", process.env.GOOGLE_CSE_ID ?? "");
+  url.searchParams.set("key", process.env.DATA_GOOGLE_API_KEY ?? "");
+  url.searchParams.set("cx", process.env.DATA_GOOGLE_CSE_ID ?? "");
   url.searchParams.set("q", `bank ${bankName}`);
 
   const data = await fetch(url).then((res) => res.json());

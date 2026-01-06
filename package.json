@@ -1,6 +1,6 @@
 {
   "workspaces": [
-    "packages/wero-tracker",
-    "packages/wero-tracker-data"
+    "packages/website",
+    "packages/data"
   ]
 }
