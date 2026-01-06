@@ -1427,7 +1427,7 @@
           "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/f5ed5983-12be-4efe-a325-cc32562197a9.png",
           "universalLink": "https://www.deutsche-bank.de/pk/konto-und-karte/bankgeschaefte-erledigen/deutsche-bank-app.html",
           "supportsDesktop": true,
-          "weroSupport": "unsupported"
+          "weroSupport": "announced"
         }
       ]
     },
@@ -2422,7 +2422,7 @@
           "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/c1213ac6-d126-47e7-a45c-cea20312c1e4.png",
           "universalLink": "https://www.postbank.de/privatkunden/services/online-banking/banking-app.html",
           "supportsDesktop": true,
-          "weroSupport": "unsupported"
+          "weroSupport": "announced"
         }
       ]
     },
