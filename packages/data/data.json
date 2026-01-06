@@ -1,6 +1,46 @@
 {
   "brands": [
     {
+      "id": "e5f4a6b2-39d3-4770-8a37-80482ccaf9fe",
+      "name": "ABN AMRO",
+      "aliases": [],
+      "weroSupport": "announced",
+      "countries": [
+        "NL"
+      ],
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/e1f1d071-6f33-4872-9496-bde18cdb7103.svg",
+      "banks": [
+        {
+          "id": "ce2ab34f-1ab5-4362-bf58-b4197e5148e6",
+          "name": "ABN AMRO",
+          "website": "https://www.abnamro.nl/",
+          "bankContext": "ABNANL2AXXX",
+          "appIds": [
+            "87649769-df7e-406f-8a30-c0320cbd42c9"
+          ],
+          "aliases": [],
+          "countries": [
+            "NL"
+          ],
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/e1f1d071-6f33-4872-9496-bde18cdb7103.svg",
+          "standaloneAppSupport": "unsupported",
+          "P2PPaymentsSupport": "announced",
+          "eCommercePaymentsSupport": "announced",
+          "POSPaymentsSupport": "unknown"
+        }
+      ],
+      "apps": [
+        {
+          "id": "87649769-df7e-406f-8a30-c0320cbd42c9",
+          "name": "ABN AMRO",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/2260321f-6c69-41a0-91ed-79df4b2e9640.png",
+          "universalLink": "https://www.abnamro.nl/nl/zakelijk/abn-amro-app/abn-amro-app-activeren.html",
+          "supportsDesktop": true,
+          "weroSupport": "announced"
+        }
+      ]
+    },
+    {
       "id": "df37254c-7fe8-4fc4-ba4f-9bad25e0aa49",
       "name": "Argenta",
       "aliases": [],
@@ -1978,6 +2018,46 @@
       ]
     },
     {
+      "id": "913adb5d-8316-43eb-862c-6816c3d072e2",
+      "name": "ING Nederland",
+      "aliases": [],
+      "weroSupport": "announced",
+      "countries": [
+        "NL"
+      ],
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/76bc3901-220e-54e3-a67e-a1f666c5d812-xs.png",
+      "banks": [
+        {
+          "id": "7192a8ad-f32a-4144-9839-ee650ad85517",
+          "name": "ING Nederland",
+          "website": "https://www.ing.nl/",
+          "bankContext": "INGBNL2AXXX",
+          "appIds": [
+            "cd1a8928-03ff-442f-a28d-9466eb441c34"
+          ],
+          "aliases": [],
+          "countries": [
+            "NL"
+          ],
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/76bc3901-220e-54e3-a67e-a1f666c5d812-xs.png",
+          "standaloneAppSupport": "unsupported",
+          "P2PPaymentsSupport": "announced",
+          "eCommercePaymentsSupport": "announced",
+          "POSPaymentsSupport": "unknown"
+        }
+      ],
+      "apps": [
+        {
+          "id": "cd1a8928-03ff-442f-a28d-9466eb441c34",
+          "name": "ING Nederland",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/76bc3901-220e-54e3-a67e-a1f666c5d812-xs.png",
+          "universalLink": "https://www.ing.nl/",
+          "supportsDesktop": true,
+          "weroSupport": "announced"
+        }
+      ]
+    },
+    {
       "id": "d281d954-0516-461e-9b90-10a737223ae3",
       "name": "KBC",
       "aliases": [],
@@ -2608,6 +2688,46 @@
           "universalLink": "https://psd.banking-app-links.de/dynamicKey/wero",
           "supportsDesktop": false,
           "weroSupport": "supported"
+        }
+      ]
+    },
+    {
+      "id": "73cabf30-178d-45dc-a0f4-9cf115b6fba1",
+      "name": "Rabobank",
+      "aliases": [],
+      "weroSupport": "announced",
+      "countries": [
+        "NL"
+      ],
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/2886b09a-31dd-434a-8061-4e30d3536630.svg",
+      "banks": [
+        {
+          "id": "3a9ff029-fed6-4913-bea5-a9444684a2be",
+          "name": "Rabobank",
+          "website": "https://www.rabobank.nl/",
+          "bankContext": "RABONL2UXXX",
+          "appIds": [
+            "ec9b472c-0c0c-44bd-b2c5-b4d3ba0869b5"
+          ],
+          "aliases": [],
+          "countries": [
+            "NL"
+          ],
+          "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/2886b09a-31dd-434a-8061-4e30d3536630.svg",
+          "standaloneAppSupport": "unsupported",
+          "P2PPaymentsSupport": "announced",
+          "eCommercePaymentsSupport": "announced",
+          "POSPaymentsSupport": "unknown"
+        }
+      ],
+      "apps": [
+        {
+          "id": "ec9b472c-0c0c-44bd-b2c5-b4d3ba0869b5",
+          "name": "Rabobank",
+          "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/84ca1ed2-1b2d-4a30-a1cf-b5dc471789e9.png",
+          "universalLink": "https://www.rabobank.nl/particulieren/online-bankieren/app",
+          "supportsDesktop": true,
+          "weroSupport": "announced"
         }
       ]
     },
