@@ -159,6 +159,7 @@ for (const brand of data.banks.brands) {
 }
 
 data.banks.brands.sort((a, b) => a.name.localeCompare(b.name));
+data.merchants.brands.sort((a, b) => a.name.localeCompare(b.name));
 
 await fs.writeFile(
   path.join(rootDir, "data.json"),
@@ -184,6 +185,11 @@ for (const brand of data.banks.brands) {
     if (app.iconUrl) {
       usedAssets.add(new URL(app.iconUrl).pathname.split("/").pop()!);
     }
+  }
+}
+for (const brand of data.merchants.brands) {
+  if (brand.logoUrl) {
+    usedAssets.add(new URL(brand.logoUrl).pathname.split("/").pop()!);
   }
 }
 

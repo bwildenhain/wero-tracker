@@ -282,6 +282,46 @@
         ]
       },
       {
+        "id": "c804a231-8ea5-4bc9-a8a2-adf82e3bc2dc",
+        "name": "Banque Internationale à Luxembourg",
+        "aliases": [],
+        "weroSupport": "announced",
+        "countries": [
+          "LU"
+        ],
+        "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/56da1335-102f-4014-b84b-cfad54b20d98.svg",
+        "banks": [
+          {
+            "id": "ebb96ccc-9b1d-4f47-87d9-1945eb750d6c",
+            "name": "Banque Internationale à Luxembourg",
+            "website": "https://www.bil.com/",
+            "bankContext": "BILLLULLXXX",
+            "appIds": [
+              "3979e911-6a97-473a-bda9-ed08316a35bd"
+            ],
+            "aliases": [],
+            "countries": [
+              "LU"
+            ],
+            "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/56da1335-102f-4014-b84b-cfad54b20d98.svg",
+            "standaloneAppSupport": "announced",
+            "P2PPaymentsSupport": "announced",
+            "eCommercePaymentsSupport": "unknown",
+            "POSPaymentsSupport": "unknown"
+          }
+        ],
+        "apps": [
+          {
+            "id": "3979e911-6a97-473a-bda9-ed08316a35bd",
+            "name": "BILnet",
+            "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/e585aa3f-ff12-4fb5-afcf-0b03854e5315.png",
+            "universalLink": "https://www.bil.com/en/individuals/products-and-services/managing-day-to-day-finances/online-bank-BILnet/Pages/Index.aspx",
+            "supportsDesktop": true,
+            "weroSupport": "unsupported"
+          }
+        ]
+      },
+      {
         "id": "b1d50b92-7b31-4c07-b5bd-a9d343adc465",
         "name": "Banque Marze",
         "aliases": [],
@@ -661,6 +701,46 @@
             "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/3ca41f49-3b6e-4305-9306-ce7ac564d322.png",
             "universalLink": "https://www.bforbank.com/de/app-herunterladen",
             "supportsDesktop": false,
+            "weroSupport": "unsupported"
+          }
+        ]
+      },
+      {
+        "id": "4df006d9-fea4-403e-9b91-db0dd23a2cf9",
+        "name": "BGL BNP Paribas",
+        "aliases": [],
+        "weroSupport": "announced",
+        "countries": [
+          "LU"
+        ],
+        "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/46835d69-ff31-4706-93d5-fa970ec6cb94.svg",
+        "banks": [
+          {
+            "id": "012d3498-e713-4cf9-b723-459020f354cf",
+            "name": "BGL BNP Paribas",
+            "website": "https://www.bgl.lu/",
+            "bankContext": "BGLLLULLXXX",
+            "appIds": [
+              "431f1541-610b-438f-bd4f-abe6413cf426"
+            ],
+            "aliases": [],
+            "countries": [
+              "LU"
+            ],
+            "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/46835d69-ff31-4706-93d5-fa970ec6cb94.svg",
+            "standaloneAppSupport": "announced",
+            "P2PPaymentsSupport": "announced",
+            "eCommercePaymentsSupport": "unknown",
+            "POSPaymentsSupport": "unknown"
+          }
+        ],
+        "apps": [
+          {
+            "id": "431f1541-610b-438f-bd4f-abe6413cf426",
+            "name": "Web Banking",
+            "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/f9ad6900-2706-4dd9-9cd6-3e89095d835a.png",
+            "universalLink": "https://www.bgl.lu/en/individuals/online-services/account-management-app.html",
+            "supportsDesktop": true,
             "weroSupport": "unsupported"
           }
         ]
@@ -2389,6 +2469,46 @@
         ]
       },
       {
+        "id": "0afe9605-f17e-4a5a-8120-3acb74159a2d",
+        "name": "Post Luxembourg",
+        "aliases": [],
+        "weroSupport": "announced",
+        "countries": [
+          "LU"
+        ],
+        "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/5946c127-1cca-4967-b9bb-87f17ef71689.svg",
+        "banks": [
+          {
+            "id": "77970206-a306-4eb8-a250-aff61818259f",
+            "name": "Post Luxembourg",
+            "website": "https://www.post.lu/",
+            "bankContext": "CCPLLULLXXX",
+            "appIds": [
+              "41c47961-7ae8-415e-a60b-58289ec3a428"
+            ],
+            "aliases": [],
+            "countries": [
+              "LU"
+            ],
+            "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/5946c127-1cca-4967-b9bb-87f17ef71689.svg",
+            "standaloneAppSupport": "announced",
+            "P2PPaymentsSupport": "announced",
+            "eCommercePaymentsSupport": "unknown",
+            "POSPaymentsSupport": "unknown"
+          }
+        ],
+        "apps": [
+          {
+            "id": "41c47961-7ae8-415e-a60b-58289ec3a428",
+            "name": "eboo",
+            "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/c9304d1d-6496-4118-8a25-b1169d722793.png",
+            "universalLink": "https://www.post.lu/en/particuliers/finance/eboo",
+            "supportsDesktop": true,
+            "weroSupport": "unsupported"
+          }
+        ]
+      },
+      {
         "id": "2853422a-a201-49a8-9d68-e23261f2ad4f",
         "name": "Postbank",
         "aliases": [],
@@ -2769,6 +2889,46 @@
             "universalLink": "https://www.raiffeisen.at/de/online-banking/apps/mein-elba-app.html",
             "supportsDesktop": true,
             "weroSupport": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "d7ce4876-a5a5-43cf-a8c9-c4c28f67642c",
+        "name": "Raiffeisen",
+        "aliases": [],
+        "weroSupport": "announced",
+        "countries": [
+          "LU"
+        ],
+        "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/2d89caf2-b4c1-49a6-8b7b-35cfce98d62b.svg",
+        "banks": [
+          {
+            "id": "1806bdfe-52e4-4527-8a7f-1ce085dc90f2",
+            "name": "Raiffeisen",
+            "website": "https://www.raiffeisen.lu/",
+            "bankContext": "CCRALULLXXX",
+            "appIds": [
+              "981579d6-da49-48ea-b80e-07bd65193efc"
+            ],
+            "aliases": [],
+            "countries": [
+              "LU"
+            ],
+            "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/2d89caf2-b4c1-49a6-8b7b-35cfce98d62b.svg",
+            "standaloneAppSupport": "announced",
+            "P2PPaymentsSupport": "announced",
+            "eCommercePaymentsSupport": "unknown",
+            "POSPaymentsSupport": "unknown"
+          }
+        ],
+        "apps": [
+          {
+            "id": "981579d6-da49-48ea-b80e-07bd65193efc",
+            "name": "R-Net Mobile",
+            "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/51c924f8-795e-4c18-a353-3e56f9fa1d2b.png",
+            "universalLink": "https://www.raiffeisen.lu/en/private/daily-banking/mobile-payments/online-banking-r-net",
+            "supportsDesktop": true,
+            "weroSupport": "unsupported"
           }
         ]
       },
@@ -3504,6 +3664,46 @@
             "universalLink": "https://www.sparkasse.de/_deeplink/wero",
             "supportsDesktop": false,
             "weroSupport": "supported"
+          }
+        ]
+      },
+      {
+        "id": "2e0a5adc-2405-4ee3-8587-03ca31f53e05",
+        "name": "Spuerkeess",
+        "aliases": [],
+        "weroSupport": "announced",
+        "countries": [
+          "LU"
+        ],
+        "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/d11aab5b-37fb-49cd-96dc-93c3471d13c9.svg",
+        "banks": [
+          {
+            "id": "385fc408-9321-47ec-b1e0-9fa225887b85",
+            "name": "Spuerkeess",
+            "website": "http://spuerkeess.lu/",
+            "bankContext": "BCEELULLXXX",
+            "appIds": [
+              "e96ac5f4-4862-4b79-9035-93745d1ac414"
+            ],
+            "aliases": [],
+            "countries": [
+              "LU"
+            ],
+            "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/d11aab5b-37fb-49cd-96dc-93c3471d13c9.svg",
+            "standaloneAppSupport": "announced",
+            "P2PPaymentsSupport": "announced",
+            "eCommercePaymentsSupport": "unknown",
+            "POSPaymentsSupport": "unknown"
+          }
+        ],
+        "apps": [
+          {
+            "id": "e96ac5f4-4862-4b79-9035-93745d1ac414",
+            "name": "S-Net Mobile",
+            "iconUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/f88c972e-798c-4054-a9c6-d4b95e71ca3f.png",
+            "universalLink": "https://www.spuerkeess.lu/en/mobile/",
+            "supportsDesktop": true,
+            "weroSupport": "unsupported"
           }
         ]
       },
