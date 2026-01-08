@@ -20659,6 +20659,18 @@
         "weroSupport": "announced"
       },
       {
+        "id": "17ccf8ef-b7a2-4463-b610-7c79c2401c5c",
+        "name": "Amazon DE",
+        "aliases": [],
+        "website": "https://amazon.de",
+        "logoUrl": "https://raw.githubusercontent.com///main/packages/data/assets/17ccf8ef-b7a2-4463-b610-7c79c2401c5c.png",
+        "category": "other",
+        "countries": [
+          "DE"
+        ],
+        "weroSupport": "unsupported"
+      },
+      {
         "id": "062191ed-b7ad-450c-b73d-52066159f7f7",
         "name": "Baur",
         "aliases": [],
@@ -20825,6 +20837,18 @@
           "DE"
         ],
         "weroSupport": "announced"
+      },
+      {
+        "id": "63c62e70-ecb2-11f0-9c9f-974f626ff2d3",
+        "name": "airportLiner",
+        "aliases": [],
+        "website": "https://www.airportliner.com/",
+        "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/c8c86722-ecb0-11f0-8f3a-bb3b34ef1f6b.png",
+        "category": "travel",
+        "countries": [
+          "DE"
+        ],
+        "weroSupport": "supported"
       }
     ]
   }

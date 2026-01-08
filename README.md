@@ -45,6 +45,34 @@ You can help this project in several ways:
 
 Thank you very much in advance 😀
 
+## Development
+
+### Setup
+
+After cloning the repository, run this command:
+
+```bash
+npm install
+```
+
+### Adding a new bank or online shop
+
+```bash
+npm run add
+```
+
+### Updating the data for banks with existing Wero support directly from Wero
+
+```bash
+npm run update
+```
+
+### Linting for unused assets or missing websites
+
+```bash
+npm run lint
+```
+
 ## Legal
 
 All logos are trademarks of their respective companies. Used here for educational and informational purposes only.
