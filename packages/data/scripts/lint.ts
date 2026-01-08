@@ -207,4 +207,11 @@ for (const asset of allAssets) {
   }
 }
 
+for (const usedAsset of usedAssets) {
+  if (!(await exists(path.join(rootDir, "assets", usedAsset)))) {
+    error(`Asset "assets/${usedAsset}" is missing!`);
+    process.exit(1);
+  }
+}
+
 success("Linting finished successfully.");
