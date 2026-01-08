@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { StatusBadge, StatusDot } from "./status-badge";
+import { NotesText } from "./notes-text";
 import { Check, ChevronDown, ExternalLink, Landmark } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Bank, BankBrand, SupportStatus, Data } from "@/lib/schema";
@@ -58,6 +59,7 @@ export function BankBrandItem({ brand, weroApp }: BankBrandItemProps) {
                     <ExternalLink size={14} />
                   </a>
                 )}
+                {brand.notes && <NotesText notes={brand.notes} />}
               </div>
               {brand.banks.length > 1 && (
                 <BankSelectorComboBox

@@ -1,5 +1,6 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { StatusBadge } from "./status-badge";
+import { NotesText } from "./notes-text";
 import { ExternalLink } from "lucide-react";
 import { MerchantBrand, MerchantCategory } from "@/lib/schema";
 import {
@@ -63,6 +64,7 @@ export function MerchantBrandItem({ merchant }: MerchantBrandItemProps) {
             >
               <ExternalLink size={14} />
             </a>
+            {merchant.notes && <NotesText notes={merchant.notes} />}
           </ItemTitle>
           <ItemDescription>
             <span

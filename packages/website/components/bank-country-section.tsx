@@ -2,7 +2,7 @@
 
 import { BankBrandItem } from "./bank-brand-item";
 import { ChevronDown } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 import { CountryFlag } from "./country-flag";
 import {
@@ -26,6 +26,10 @@ export function BankCountrySection({
   defaultExpanded = true,
 }: BankCountrySectionProps) {
   const [isOpen, setIsOpen] = useState(defaultExpanded);
+
+  useEffect(() => {
+    setIsOpen(defaultExpanded);
+  }, [defaultExpanded]);
 
   const supportedCount = brands.filter(
     (b) => b.weroSupport === "supported",

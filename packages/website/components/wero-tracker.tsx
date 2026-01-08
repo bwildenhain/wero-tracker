@@ -306,6 +306,7 @@ export function WeroTracker({ data }: WeroTrackerProps) {
                     countryCode={code}
                     brands={brands}
                     weroApp={data.banks.standaloneAppResource}
+                    defaultExpanded={code === userCountry}
                   />
                 ))
             )}
