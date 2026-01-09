@@ -2,15 +2,17 @@ import { WeroTracker } from "@/components/wero-tracker";
 import { banksSchema, merchantsSchema, type Data } from "@/lib/schema";
 
 async function getWeroData(): Promise<Data> {
-  const banksUrl = process.env.NEXT_PUBLIC_WT_BANKS_URL;
-  const merchantsUrl = process.env.NEXT_PUBLIC_WT_MERCHANTS_URL;
+  const banksUrl = process.env.NEXT_PUBLIC_WEBSITE_BANKS_URL;
+  const merchantsUrl = process.env.NEXT_PUBLIC_WEBSITE_MERCHANTS_URL;
 
   if (!banksUrl) {
-    throw new Error("NEXT_PUBLIC_WT_BANKS_URL environment variable is not set");
+    throw new Error(
+      "NEXT_PUBLIC_WEBSITE_BANKS_URL environment variable is not set",
+    );
   }
   if (!merchantsUrl) {
     throw new Error(
-      "NEXT_PUBLIC_WT_MERCHANTS_URL environment variable is not set",
+      "NEXT_PUBLIC_WEBSITE_MERCHANTS_URL environment variable is not set",
     );
   }
 
