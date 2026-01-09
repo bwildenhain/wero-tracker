@@ -4,9 +4,11 @@ import path from "node:path";
 import {
   type BankingApp,
   type BankBrand,
-  dataSchema,
+  banksSchema,
+  merchantsSchema,
   type SupportStatus,
-  type Data,
+  type BanksData,
+  type MerchantsData,
 } from "./common/schema.ts";
 import { exists, rootDir } from "./common/fs.ts";
 import { saveAsset } from "./common/assets.ts";
@@ -21,14 +23,31 @@ import {
 } from "./common/prompt.ts";
 
 // Load existing data
-if (!(await exists(path.join(rootDir, "data.json")))) {
-  error('No existing data found. Run "npm run update" first.');
+if (!(await exists(path.join(rootDir, "banks.json")))) {
+  error('No existing banks data found. Run "npm run update" first.');
   process.exit(1);
 }
+if (!(await exists(path.join(rootDir, "merchants.json")))) {
+  await fs.writeFile(
+    path.join(rootDir, "merchants.json"),
+    JSON.stringify({ brands: [] }, null, 2),
+    "utf-8"
+  );
+}
 
-const fileContent = await fs.readFile(path.join(rootDir, "data.json"), "utf-8");
-const json = JSON.parse(fileContent);
-const data = dataSchema.parse(json);
+const banksFileContent = await fs.readFile(
+  path.join(rootDir, "banks.json"),
+  "utf-8"
+);
+const banksJson = JSON.parse(banksFileContent);
+const banksData = banksSchema.parse(banksJson);
+
+const merchantsFileContent = await fs.readFile(
+  path.join(rootDir, "merchants.json"),
+  "utf-8"
+);
+const merchantsJson = JSON.parse(merchantsFileContent);
+const merchantsData = merchantsSchema.parse(merchantsJson);
 
 info("Welcome to the Wero Tracker addition wizard!");
 
@@ -39,23 +58,28 @@ const entityType = await select("What would you like to add?", [
 ]);
 
 if (entityType === "merchant") {
-  await addMerchant(data);
+  await addMerchant(merchantsData);
+  // Save merchants data
+  await fs.writeFile(
+    path.join(rootDir, "merchants.json"),
+    JSON.stringify(merchantsData, null, 2),
+    "utf-8"
+  );
 } else {
-  await addBank(data);
+  await addBank(banksData);
+  // Save banks data
+  await fs.writeFile(
+    path.join(rootDir, "banks.json"),
+    JSON.stringify(banksData, null, 2),
+    "utf-8"
+  );
 }
-
-// Save the data
-await fs.writeFile(
-  path.join(rootDir, "data.json"),
-  JSON.stringify(data, null, 2),
-  "utf-8"
-);
 
 // ============================================================================
 // MERCHANT ADDITION
 // ============================================================================
 
-async function addMerchant(data: Data) {
+async function addMerchant(data: MerchantsData) {
   info("Let's add a new merchant!");
 
   const name = await text("Enter the name of the merchant:");
@@ -75,18 +99,19 @@ async function addMerchant(data: Data) {
   const logoUrlInput = await text("Enter the logo URL of the merchant:");
   const logoUrl = await saveAsset(logoUrlInput, crypto.randomUUID());
 
-  const category = await select<
-    Data["merchants"]["brands"][number]["category"]
-  >("Select the merchant category:", [
-    { value: "fashion", label: "Fashion" },
-    { value: "electronics", label: "Electronics" },
-    { value: "food-delivery", label: "Food Delivery" },
-    { value: "groceries", label: "Groceries" },
-    { value: "travel", label: "Travel" },
-    { value: "entertainment", label: "Entertainment" },
-    { value: "services", label: "Services" },
-    { value: "other", label: "Other" },
-  ]);
+  const category = await select<MerchantsData["brands"][number]["category"]>(
+    "Select the merchant category:",
+    [
+      { value: "fashion", label: "Fashion" },
+      { value: "electronics", label: "Electronics" },
+      { value: "food-delivery", label: "Food Delivery" },
+      { value: "groceries", label: "Groceries" },
+      { value: "travel", label: "Travel" },
+      { value: "entertainment", label: "Entertainment" },
+      { value: "services", label: "Services" },
+      { value: "other", label: "Other" },
+    ]
+  );
 
   const countriesInput = await text(
     "Enter 2-letter country codes separated by comma (e.g., DE, FR, BE):"
@@ -132,7 +157,7 @@ async function addMerchant(data: Data) {
   );
   notes = notes.trim();
 
-  const newMerchant: Data["merchants"]["brands"][number] = {
+  const newMerchant: MerchantsData["brands"][number] = {
     id: crypto.randomUUID(),
     name,
     aliases,
@@ -144,10 +169,10 @@ async function addMerchant(data: Data) {
     notes,
   };
 
-  data.merchants.brands.push(newMerchant);
+  data.brands.push(newMerchant);
 
   // Sort merchants by name
-  data.merchants.brands.sort((a, b) => a.name.localeCompare(b.name));
+  data.brands.sort((a, b) => a.name.localeCompare(b.name));
 
   success(`Successfully added merchant "${name}"!`);
   info(`Merchant ID: ${newMerchant.id}`);
@@ -157,7 +182,7 @@ async function addMerchant(data: Data) {
 // BANK ADDITION
 // ============================================================================
 
-async function addBank(data: Data) {
+async function addBank(data: BanksData) {
   // Ask if adding to existing brand or creating new brand
   const brandChoice = await select("What would you like to do?", [
     {
@@ -177,14 +202,14 @@ async function addBank(data: Data) {
     // Select existing brand
     const brandId = await select(
       "Select the brand to add a bank to:",
-      data.banks.brands.map((brand) => ({
+      data.brands.map((brand) => ({
         value: brand.id,
         label: brand.name,
         hint: `${brand.countries.join(", ")} - ${brand.banks.length} bank(s)`,
       }))
     );
 
-    selectedBrand = data.banks.brands.find((b) => b.id === brandId)!;
+    selectedBrand = data.brands.find((b) => b.id === brandId)!;
     info(`Adding a new bank to brand "${selectedBrand.name}".`);
   } else {
     // Create new brand
@@ -253,7 +278,7 @@ async function addBank(data: Data) {
       apps: [],
     };
 
-    data.banks.brands.push(selectedBrand);
+    data.brands.push(selectedBrand);
     info(`Created new brand "${name}".`);
   }
 
@@ -473,7 +498,7 @@ async function addBank(data: Data) {
   selectedBrand.banks.push(newBank);
 
   // Sort brands by name
-  data.banks.brands.sort((a, b) => a.name.localeCompare(b.name));
+  data.brands.sort((a, b) => a.name.localeCompare(b.name));
 
   success(
     `Successfully added bank "${bankName}" to brand "${selectedBrand.name}"!`

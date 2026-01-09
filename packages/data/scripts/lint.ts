@@ -3,7 +3,8 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import {
   type BankingApp,
-  dataSchema,
+  banksSchema,
+  merchantsSchema,
   type SupportStatus,
 } from "./common/schema.ts";
 import { exists, rootDir } from "./common/fs.ts";
@@ -70,16 +71,34 @@ async function searchWebsite(
   return String(result);
 }
 
-if (!(await exists(path.join(rootDir, "data.json")))) {
-  error('No existing data found. Run "npm run update-wero-data" first.');
+if (!(await exists(path.join(rootDir, "banks.json")))) {
+  error('No existing banks data found. Run "npm run update-wero-data" first.');
   process.exit(1);
 }
 
-const fileContent = await fs.readFile(path.join(rootDir, "data.json"), "utf-8");
-const json = JSON.parse(fileContent);
-const data = dataSchema.parse(json);
+if (!(await exists(path.join(rootDir, "merchants.json")))) {
+  await fs.writeFile(
+    path.join(rootDir, "merchants.json"),
+    JSON.stringify({ brands: [] }, null, 2),
+    "utf-8"
+  );
+}
 
-for (const brand of data.banks.brands) {
+const banksFileContent = await fs.readFile(
+  path.join(rootDir, "banks.json"),
+  "utf-8"
+);
+const banksJson = JSON.parse(banksFileContent);
+const banksData = banksSchema.parse(banksJson);
+
+const merchantsFileContent = await fs.readFile(
+  path.join(rootDir, "merchants.json"),
+  "utf-8"
+);
+const merchantsJson = JSON.parse(merchantsFileContent);
+const merchantsData = merchantsSchema.parse(merchantsJson);
+
+for (const brand of banksData.brands) {
   // Check for missing websites
   for (const bank of brand.banks) {
     if (
@@ -158,21 +177,27 @@ for (const brand of data.banks.brands) {
   }
 }
 
-data.banks.brands.sort((a, b) => a.name.localeCompare(b.name));
-data.merchants.brands.sort((a, b) => a.name.localeCompare(b.name));
+banksData.brands.sort((a, b) => a.name.localeCompare(b.name));
+merchantsData.brands.sort((a, b) => a.name.localeCompare(b.name));
 
 await fs.writeFile(
-  path.join(rootDir, "data.json"),
-  JSON.stringify(data, null, 2),
+  path.join(rootDir, "banks.json"),
+  JSON.stringify(banksData, null, 2),
+  "utf-8"
+);
+
+await fs.writeFile(
+  path.join(rootDir, "merchants.json"),
+  JSON.stringify(merchantsData, null, 2),
   "utf-8"
 );
 
 // Check if there are unused assets
 const usedAssets = new Set<string>();
 usedAssets.add(
-  new URL(data.banks.standaloneAppResource.iconUrl).pathname.split("/").pop()!
+  new URL(banksData.standaloneAppResource.iconUrl).pathname.split("/").pop()!
 );
-for (const brand of data.banks.brands) {
+for (const brand of banksData.brands) {
   if (brand.logoUrl) {
     usedAssets.add(new URL(brand.logoUrl).pathname.split("/").pop()!);
   }
@@ -187,7 +212,7 @@ for (const brand of data.banks.brands) {
     }
   }
 }
-for (const brand of data.merchants.brands) {
+for (const brand of merchantsData.brands) {
   if (brand.logoUrl) {
     usedAssets.add(new URL(brand.logoUrl).pathname.split("/").pop()!);
   }

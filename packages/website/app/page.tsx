@@ -1,16 +1,31 @@
 import { WeroTracker } from "@/components/wero-tracker";
-import { dataSchema } from "@/lib/schema";
+import { banksSchema, merchantsSchema, type Data } from "@/lib/schema";
 
-async function getWeroData() {
-  const dataUrl = process.env.NEXT_PUBLIC_WEBSITE_DATA_URL;
-  if (!dataUrl) {
+async function getWeroData(): Promise<Data> {
+  const banksUrl = process.env.NEXT_PUBLIC_WT_BANKS_URL;
+  const merchantsUrl = process.env.NEXT_PUBLIC_WT_MERCHANTS_URL;
+
+  if (!banksUrl) {
+    throw new Error("NEXT_PUBLIC_WT_BANKS_URL environment variable is not set");
+  }
+  if (!merchantsUrl) {
     throw new Error(
-      "NEXT_PUBLIC_WEBSITE_DATA_URL environment variable is not set",
+      "NEXT_PUBLIC_WT_MERCHANTS_URL environment variable is not set",
     );
   }
-  const response = await fetch(dataUrl);
-  const data = await response.json();
-  return dataSchema.parse(data);
+
+  const [banksResponse, merchantsResponse] = await Promise.all([
+    fetch(banksUrl),
+    fetch(merchantsUrl),
+  ]);
+
+  const banksData = banksSchema.parse(await banksResponse.json());
+  const merchantsData = merchantsSchema.parse(await merchantsResponse.json());
+
+  return {
+    banks: banksData,
+    merchants: merchantsData,
+  };
 }
 
 export default async function Page() {

@@ -1,0 +1,220 @@
+{
+  "brands": [
+    {
+      "id": "d5e8e11d-8261-457c-a12e-00de88c683e6",
+      "name": "1. FC Kaiserslautern",
+      "aliases": [],
+      "website": "https://shop.fck.de/",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/22d8f1ae-986c-445e-8b2c-d4c7685947d2.png",
+      "category": "other",
+      "countries": [
+        "DE"
+      ],
+      "weroSupport": "supported"
+    },
+    {
+      "id": "ac09c5c4-f8b7-4ab5-9619-78898993cfab",
+      "name": "Air Europa",
+      "aliases": [],
+      "website": "https://www.aireuropa.com/",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/2e373738-a860-42f9-8972-e3984dd5775b.svg",
+      "category": "travel",
+      "countries": [
+        "DE"
+      ],
+      "weroSupport": "announced"
+    },
+    {
+      "id": "63c62e70-ecb2-11f0-9c9f-974f626ff2d3",
+      "name": "airportLiner",
+      "aliases": [],
+      "website": "https://www.airportliner.com/",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/c8c86722-ecb0-11f0-8f3a-bb3b34ef1f6b.png",
+      "category": "travel",
+      "countries": [
+        "DE"
+      ],
+      "weroSupport": "supported"
+    },
+    {
+      "id": "17ccf8ef-b7a2-4463-b610-7c79c2401c5c",
+      "name": "Amazon DE",
+      "aliases": [],
+      "website": "https://amazon.de",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/17ccf8ef-b7a2-4463-b610-7c79c2401c5c.png",
+      "category": "other",
+      "countries": [
+        "DE"
+      ],
+      "weroSupport": "unsupported"
+    },
+    {
+      "id": "062191ed-b7ad-450c-b73d-52066159f7f7",
+      "name": "Baur",
+      "aliases": [],
+      "website": "https://www.baur.de/",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/88bee4c3-9e8a-4e84-b962-177206a142e8.svg",
+      "category": "other",
+      "countries": [
+        "DE"
+      ],
+      "weroSupport": "announced"
+    },
+    {
+      "id": "e50b80bf-7480-4605-a7cd-60d519fbf231",
+      "name": "Cewe",
+      "aliases": [],
+      "website": "https://www.cewe.de/",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/ab44678c-8a03-4174-9619-b4e8dc1d01e0.png",
+      "category": "other",
+      "countries": [
+        "DE"
+      ],
+      "weroSupport": "announced"
+    },
+    {
+      "id": "4474a251-e1e5-4981-881d-9e1d75eed80b",
+      "name": "Cineplex",
+      "aliases": [],
+      "website": "https://www.cineplex.de/",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/917a2584-591c-46e7-92c4-af9e962c6abc.png",
+      "category": "entertainment",
+      "countries": [
+        "DE"
+      ],
+      "weroSupport": "announced"
+    },
+    {
+      "id": "cb41e5ae-1472-4c82-8a61-e0d46fd56c8f",
+      "name": "Decathlon",
+      "aliases": [],
+      "website": "https://www.decathlon.de/",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/91d7813b-733d-4487-9814-98182524832b.svg",
+      "category": "fashion",
+      "countries": [
+        "DE"
+      ],
+      "weroSupport": "announced"
+    },
+    {
+      "id": "e4a23d19-e49d-4740-b166-3285b173f547",
+      "name": "Dott",
+      "aliases": [],
+      "website": "https://ridedott.com/",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/c17d6362-79b6-449e-95b0-038b2e51b9cb.svg",
+      "category": "travel",
+      "countries": [
+        "DE"
+      ],
+      "weroSupport": "announced"
+    },
+    {
+      "id": "3c7fe46b-c6d3-409e-8f2f-7af6d94083b4",
+      "name": "Eventim",
+      "aliases": [],
+      "website": "https://www.eventim.de/",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/f69e9d98-5782-4af4-b279-e18483a2131f.svg",
+      "category": "entertainment",
+      "countries": [
+        "DE"
+      ],
+      "weroSupport": "supported"
+    },
+    {
+      "id": "6f3168f7-b1a6-40e3-b0fb-61514152b540",
+      "name": "Hornbach",
+      "aliases": [],
+      "website": "https://www.hornbach.de/",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/767bbba7-bc26-4d32-a817-1469accb943c.svg",
+      "category": "other",
+      "countries": [
+        "DE"
+      ],
+      "weroSupport": "announced"
+    },
+    {
+      "id": "c969283b-e00e-442e-aa72-7ec3e3a6c007",
+      "name": "Käfer",
+      "aliases": [],
+      "website": "https://www.feinkost-kaefer.de/",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/57eccc3b-00be-47ce-a1a3-8f80ab1e2ef0.png",
+      "category": "groceries",
+      "countries": [
+        "DE"
+      ],
+      "weroSupport": "announced"
+    },
+    {
+      "id": "0c5611dc-0a36-4e9a-81ae-a6f408f4a38e",
+      "name": "Lidl",
+      "aliases": [],
+      "website": "https://www.lidl.de/",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/39aca394-eea3-4d09-bf0b-c34dc79b9968.svg",
+      "category": "groceries",
+      "countries": [
+        "DE"
+      ],
+      "weroSupport": "announced"
+    },
+    {
+      "id": "807086f4-bb31-4916-86f4-bab7906ed25a",
+      "name": "Rossmann",
+      "aliases": [],
+      "website": "https://www.rossmann.de/",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/201b4714-7762-4ac7-80a7-4fab3d6280da.svg",
+      "category": "groceries",
+      "countries": [
+        "DE"
+      ],
+      "weroSupport": "announced"
+    },
+    {
+      "id": "fb516d92-2aee-4a10-8b1d-bb9d377c4b31",
+      "name": "tedox",
+      "aliases": [],
+      "website": "https://www.tedox.de/",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/d45c21b2-6f8e-4906-be7a-631fd2a00b08.png",
+      "category": "other",
+      "countries": [
+        "DE"
+      ],
+      "weroSupport": "supported"
+    },
+    {
+      "id": "2f99525f-e56a-44eb-bcc3-5646e7e7c52e",
+      "name": "Traivelling",
+      "aliases": [],
+      "website": "https://traivelling.com/",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/37073db1-0a0e-4fc0-93e5-816f8c29109e.svg",
+      "category": "travel",
+      "countries": [
+        "DE"
+      ],
+      "weroSupport": "announced"
+    },
+    {
+      "id": "7a9af6a9-8b79-43c2-a516-be3c868c4b3b",
+      "name": "Veepee",
+      "aliases": [],
+      "website": "https://www.veepee.de/",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/63f81d9e-f8f1-4527-8d40-41d35a72bdcc.png",
+      "category": "other",
+      "countries": [
+        "DE"
+      ],
+      "weroSupport": "announced"
+    },
+    {
+      "id": "a6c2c515-f4f6-4e38-ae7b-fdee2fe4bc1b",
+      "name": "Zooplus",
+      "aliases": [],
+      "website": "https://www.zooplus.de/",
+      "logoUrl": "https://raw.githubusercontent.com/sharknoon/wero-tracker/refs/heads/main/packages/data/assets/77f9a89d-1e27-4ef3-bb35-4a368f649d52.png",
+      "category": "other",
+      "countries": [
+        "DE"
+      ],
+      "weroSupport": "announced"
+    }
+  ]
+}

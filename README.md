@@ -1,5 +1,5 @@
 [![Deploy site](https://github.com/sharknoon/wero-tracker/actions/workflows/deploy-site.yml/badge.svg)](https://github.com/sharknoon/wero-tracker/actions/workflows/deploy-site.yml)
-[![Update data.json](https://github.com/sharknoon/wero-tracker/actions/workflows/update-data-json.yml/badge.svg)](https://github.com/sharknoon/wero-tracker/actions/workflows/update-data-json.yml)
+[![Update banks.json](https://github.com/sharknoon/wero-tracker/actions/workflows/update-banks-json.yml/badge.svg)](https://github.com/sharknoon/wero-tracker/actions/workflows/update-banks-json.yml)
 
 # Wero Adoption Tracker
 

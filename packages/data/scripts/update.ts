@@ -2,7 +2,7 @@ import "dotenv/config";
 import fs from "node:fs/promises";
 import path from "node:path";
 import zod from "zod";
-import { type Data, dataSchema } from "./common/schema.ts";
+import { type BanksData, banksSchema } from "./common/schema.ts";
 import { exists, rootDir } from "./common/fs.ts";
 import { saveAsset } from "./common/assets.ts";
 import { error, success } from "./common/prompt.ts";
@@ -64,36 +64,31 @@ if (!result.success) {
 
 const weroData = result.data.data;
 
-export let existingData: Data = {
-  banks: {
-    brands: [],
-    standaloneAppResource: { name: "", iconUrl: "", universalLink: "" },
-  },
-  merchants: { brands: [] },
+export let existingBanksData: BanksData = {
+  brands: [],
+  standaloneAppResource: { name: "", iconUrl: "", universalLink: "" },
 };
-if (await exists(path.join(rootDir, "data.json"))) {
+
+if (await exists(path.join(rootDir, "banks.json"))) {
   const fileContent = await fs.readFile(
-    path.join(rootDir, "data.json"),
+    path.join(rootDir, "banks.json"),
     "utf-8"
   );
   const data = JSON.parse(fileContent);
-  existingData = dataSchema.parse(data);
+  existingBanksData = banksSchema.parse(data);
 }
 
-const data: Data = {
-  banks: {
-    brands: [],
-    standaloneAppResource: {
-      name: weroData.standaloneAppResource.name,
-      iconUrl: await saveAsset(weroData.standaloneAppResource.iconUrl),
-      universalLink: weroData.standaloneAppResource.universalLink,
-    },
+const banksData: BanksData = {
+  brands: [],
+  standaloneAppResource: {
+    name: weroData.standaloneAppResource.name,
+    iconUrl: await saveAsset(weroData.standaloneAppResource.iconUrl),
+    universalLink: weroData.standaloneAppResource.universalLink,
   },
-  merchants: existingData.merchants,
 };
 
 for (const brand of weroData.brands) {
-  const existingBrandData = existingData.banks.brands.find(
+  const existingBrandData = existingBanksData.brands.find(
     (b) => b.id === brand.id
   );
   const banks = [];
@@ -123,7 +118,7 @@ for (const brand of weroData.brands) {
     });
   }
 
-  data.banks.brands.push({
+  banksData.brands.push({
     id: brand.id,
     name: brand.name,
     aliases: brand.aliases,
@@ -150,20 +145,20 @@ for (const brand of weroData.brands) {
 
 const weroBrandIds = new Set(weroData.brands.map((b) => b.id));
 const additionalBrandIds =
-  existingData.banks.brands
+  existingBanksData.brands
     .filter((b) => !weroBrandIds.has(b.id))
     .map((b) => b.id) ?? [];
 for (const brandId of additionalBrandIds) {
-  const brand = existingData.banks.brands.find((b) => b.id === brandId)!;
-  data.banks.brands.push(brand);
+  const brand = existingBanksData.brands.find((b) => b.id === brandId)!;
+  banksData.brands.push(brand);
 }
 
-data.banks.brands.sort((a, b) => a.name.localeCompare(b.name));
+banksData.brands.sort((a, b) => a.name.localeCompare(b.name));
 
 await fs.writeFile(
-  path.join(rootDir, "data.json"),
-  JSON.stringify(data, null, 2),
+  path.join(rootDir, "banks.json"),
+  JSON.stringify(banksData, null, 2),
   "utf-8"
 );
 
-success("Wero data updated successfully.");
+success("Wero bank data updated successfully.");

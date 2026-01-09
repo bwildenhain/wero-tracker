@@ -1,4 +1,4 @@
-name: Update data.json
+name: Update banks.json
 
 on:
   workflow_dispatch:
